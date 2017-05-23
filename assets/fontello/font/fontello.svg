@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg">
+<metadata>Copyright (C) 2017 by original authors @ fontello.com</metadata>
+<defs>
+<font id="fontello" horiz-adv-x="1000" >
+<font-face font-family="fontello" font-weight="400" font-stretch="normal" units-per-em="1000" ascent="850" descent="-150" />
+<missing-glyph horiz-adv-x="1000" />
+<glyph glyph-name="wrench" unicode="&#xe800;" d="M804 597q30-9 30-90 0-108-77-184t-184-76q-28 0-53 5-31-39-90-117t-109-136q-55-65-138-65-75 0-129 53t-54 128q0 84 64 140 59 50 137 108t118 91q-6 31-6 53 0 107 76 183t184 77q38 0 77-13 14-4 18-18t-7-26l-138-135 20-98 100-20 136 132q11 11 25 8z m-621-533q21 0 36 15t16 36-16 37-36 16-37-16-16-37 16-36 37-15z" horiz-adv-x="834" />
+
+<glyph glyph-name="menu" unicode="&#xf008;" d="M68 62q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z m0 288q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z m0 288q0-30 21-51t51-21h793q30 0 51 21t21 51-21 51-51 21h-793q-29 0-51-21t-21-51z" horiz-adv-x="1073.2" />
+</font>
+</defs>
+</svg>
