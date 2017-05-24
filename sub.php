@@ -175,6 +175,36 @@
                 </table>
             </div>
 		    
+		    <h1 class="style-title">리스트 타입</h1>
+		    <div class="decimal-list">
+		        <div class="row">
+		            <div class="col-xs-12 col-sm-4">
+		                <h2 class="list-title or">개별환기사육시스템</h2>
+		                <ol class="decimal-li">
+		                    <li><i class="num or">01</i>블로워 급/배기 fan</li>
+		                    <li><i class="num or">02</i>유량센서</li>
+		                    <li><i class="num or">03</i>케이지 클램프</li>
+		                </ol>
+		            </div>
+		            <div class="col-xs-12 col-sm-4">
+		                <h2 class="list-title re">세척기</h2>
+		                <ol class="decimal-li">
+		                    <li><i class="num re">01</i>가스켓류</li>
+		                    <li><i class="num re">02</i>센서&amp;게이지</li>
+		                    <li><i class="num re">03</i>솔레노이드 벨브</li>
+		                </ol>
+		            </div>
+		            <div class="col-xs-12 col-sm-4">
+                        <h2 class="list-title bl">AUTOCLAVE</h2>
+		                <ol class="decimal-li">
+		                    <li><i class="num bl">01</i>메인 벨브류</li>
+		                    <li><i class="num bl">02</i>챔버 내부 Cleaning</li>
+		                    <li><i class="num bl">03</i>솔레노이드 벨</li>
+		                </ol>
+		            </div>
+		        </div>
+		    </div>
+		    
 		    <h1 class="style-title">버튼 영역</h1>
 		    <div class="btn-area">
 		        <p>
