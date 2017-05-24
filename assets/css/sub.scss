@@ -1,0 +1,309 @@
+@import 'common';
+
+.sub {
+    main {
+        padding-bottom: 60px;
+        @media(min-width: $sm) {
+            padding-bottom: 100px;
+        }
+        @media(min-width: $lg) {
+            padding-bottom: 150px;
+        }
+    }
+    .style-title {
+        font-size: 20px;
+        color: #555;
+        margin-top: 40px;
+        margin-bottom: 20px;
+        @media(min-width: $sm) {
+            font-size: 25px;
+            margin-bottom: 30px;
+        }
+    }
+}
+.form-group {
+    margin: 0;
+}
+.form-control {
+    width: 100%;
+    height: 40px;
+    border-radius: 0;
+    box-shadow: none;
+    &:hover, &:focus {
+        box-shadow: none;
+    }
+    @media(min-width: $sm) {
+        width: 270px;
+    }
+}
+label {
+    font-weight: 400;
+    font-size: 14px;
+    margin-bottom: 0;
+    @media(min-width: $sm) {
+        font-size: 15px;
+    }
+}
+button {
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+// 검색폼
+.search-form {
+    text-align: center;
+    font-size: 0;
+    select {
+        display: inline-block;
+        width: 110px;
+        height: 35px;
+        font-size: 14px;
+        font-weight: 300;
+        vertical-align: top;
+        margin-right: 10px;
+        @media(min-width: $sm) {
+            width: 130px;
+            height: 40px;
+            font-size: 15px;
+            margin-right: 20px;
+        }
+    }
+    .form-group {
+        position: relative;
+        width: 180px;
+        display: inline-block;
+        
+        z-index: 1;
+        
+        @media(min-width: $sm) {
+            width: 350px;
+        }
+        .form-control {
+            height: 35px;
+            font-size: 14px;
+            vertical-align: top;
+            padding-right: 35px;
+            @media(min-width: $sm) {
+                width: 100%;
+                height: 40px;
+                font-size: 15px;
+            }
+        }
+        .btn-search {
+            position: absolute;
+            top: 1px;
+            right: 1px;
+            width: 33px;
+            height: 33px;
+            @media(min-width: $sm) {
+                width: 38px;
+                height: 38px;
+            }
+            .icon-search {
+                font-size: 15px;
+                color: #e10316;
+            }
+        }
+    }
+}
+
+// 테이블
+.table-wrap {
+    .table {
+        margin-bottom: 0;
+        border-top: 3px solid #e40009;
+        thead {
+            tr {
+                th {
+                    font-size: 14px;
+                    color: #333;
+                    font-weight: 400;
+                    vertical-align: middle;
+                    padding: 23px 0;
+                    border: 0;
+                    border-bottom: 1px solid #dfdfdf;
+                    background-color: #f8f8f8;
+                    @media(min-width: $sm) {
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        tbody {
+            tr {
+                th {
+                    font-size: 14px;
+                    color: #333;
+                    font-weight: 400;
+                    vertical-align: middle;
+                    border: 0;
+                    padding-left: 10px;
+                    border-bottom: 1px solid #dfdfdf;
+                    background-color: #f8f8f8;
+                    @media(min-width: $sm) {
+                        font-size: 15px;
+                        padding-left: 30px;
+                    }
+                }
+                td {
+                    font-size: 14px;
+                    color: #555;
+                    font-weight: 300;
+                    vertical-align: middle;
+                    padding: 23px 10px;
+                    border: 0;
+                    border-bottom: 1px solid #dfdfdf;
+                    @media(min-width: $sm) {
+                        font-size: 15px;
+                        padding-left: 40px;
+                    }
+                    @media(min-width: $md) {
+                        padding-left: 30px;
+                    }
+                }
+            }
+        }
+        &.table-write {
+            tbody {
+                tr {
+                    td {
+                        padding: 10px;
+                        padding-right: 0;
+                        @media(min-width: $sm) {
+                            padding-left: 30px;
+                        }
+                    }
+                }
+            }
+        }
+        &.table-bordered {
+            border-left: 0;
+            border-right: 0;
+            thead {
+                tr {
+                    th {
+                        text-align: center;
+                        border-right: 1px solid #dfdfdf;
+                        &:last-child {
+                            border-right: 0;
+                        }
+                    }
+                }
+            }
+            tbody {
+                tr {
+                    td {
+                        text-align: center;
+                        border-right: 1px solid #dfdfdf;
+                        &:last-child {
+                            border-right: 0;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+// 버튼 목록 및 종류
+.btn {
+    display: inline-block;
+    width: 90px;
+    height: 40px;
+    font-size: 14px;
+    line-height: 40px;
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+    &.btn-orange {
+        background-color: #f08501;
+    }
+    &.btn-gray {
+        background-color: #595757;
+    }
+    @media(min-width: $sm) {
+        font-size: 15px;
+        width: 120px;
+        height: 45px;
+        line-height: 45px;
+    }
+    @media(min-width: $lg) {
+        @include trans();
+        &:hover {
+            opacity: .8;
+        }
+    }
+}
+
+.btn-area {
+    text-align: center;
+    p {
+        font-size: 0;
+        .btn {
+            color: #fdfdfd;
+            margin-right: 15px;
+            &:last-child {
+                margin-right: 0;
+            }
+            @media(min-width: $sm) {
+                margin-right: 10px;
+            }
+        }
+    }
+}
+
+// 페이징 
+.paging {
+    text-align: center;
+    .pagination {
+        margin: 0;
+        border-radius: 0;
+        li {
+            a {
+                font-size: 18px;
+                text-align: center;
+                color: #aeaeaf;
+                @include titi();
+                padding: 0 11px;
+                border: 0;
+                border-radius: 0;
+                &:hover {
+                    background: none;
+                }
+            }
+            &.active {
+                a {
+                    position: relative;
+                    font-weight: bold;
+                    color: #e10013;
+                    background: none;
+                    &:after {
+                        position: absolute;
+                        left: 50%;
+                        bottom: 0;
+                        margin-left: -6px;
+                        content: "";
+                        width: 14px;
+                        border-bottom: 1px solid #e10013;
+                    }
+                }
+            }
+            &.stp {
+                a {
+                    padding: 0
+                }
+            }
+            &.stm-right {
+                a {
+                    margin-right: 15px;
+                }
+            }
+            &.stm-left {
+                a {
+                    margin-left: 15px;
+                }
+            }
+        }
+    }
+}
