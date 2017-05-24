@@ -97,9 +97,62 @@ a {
 	width: 100%;
 	height: 52px;
 	background-color: #f3f3f3;
+	.affiliates {
+		ul {
+			li {
+				display: inline;
+				a {
+					float: left;
+					padding-left: 15px;
+					padding-right: 15px;
+					height: 52px;
+					line-height: 52px;
+					text-decoration: none;
+					color: #5e5e5e;
+					@include trans();
+					font-weight: 500;
+					&:hover, &:focus {
+						color: #333;
+						background-color: #fff;
+					}
+				}
+			}
+		}
+	}
+	.quick {
+		margin-top: 13px;
+		text-align: right;
+		ul {
+			display: inline-block;
+			li {
+				display: inline;
+				a {
+					float: left;
+					padding-left: 20px;
+					padding-right: 20px;
+					height: 25px;
+					line-height: 25px;
+					background-color: #333;
+					color: #fff;
+					border-radius: 12px 12px 12px 12px;
+					text-decoration: none;
+					@include trans();
+					&:hover, &:focus {
+						background-color: #ef4600;
+					}
+				}
+				& + li {
+					a {
+						margin-left: 15px;
+					}
+				}
+			}
+		}
+	}
 }
 
 #header {
+	overflow: hidden;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -107,10 +160,430 @@ a {
 	height: 48px;
 	border-bottom: 3px solid $kcolor;
 	background-color: #fff;
+	.logo {
+		display: block;
+		margin: 0 auto;
+		padding-top: 12px;
+		width: 120px;
+		height: 48px;
+		a {
+			img {
+				display: block;
+				width: 100%;
+			}
+		}
+	}
+	#btn-nav-open {
+		position: fixed;
+		left: 5px;
+		top: 5px;
+		padding: 0;
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		border: 0;
+		font-size: 21px;
+		color: #2b2b2b;
+	}
+	#btn-search-as {
+		position: fixed;
+		right: 5px;
+		top: 5px;
+		padding: 0;
+		width: 35px;
+		height: 35px;
+		line-height: 35px;
+		border: 0;
+		font-size: 21px;
+		color: #2b2b2b;
+	}
 	@media (min-width: $sm) {
 		height: 83px;
+		.logo {
+			padding-top: 21px;
+			width: 215px;
+			height: 83px;
+		}
+		#btn-nav-open {
+			top: 19px;
+			left: 20px;
+			width: 42px;
+			height: 42px;
+			line-height: 42px;
+			font-size: 33px;
+		}
+		#btn-search-as {
+			top: 19px;
+			right: 20px;
+			width: 42px;
+			height: 42px;
+			line-height: 42px;
+			font-size: 33px;
+		}
 	}
 	@media (min-width: $lg) {
 		top: 52px;
+		@include trans();
+		.container {
+			position: relative;
+		}
+		.logo {
+			margin: inherit;
+			height: 80px;
+		}
+		#nav {
+			float: right;
+			margin-right: -15px;
+			> ul {
+				> li {
+					float: left;
+					width: 200px;
+					text-align: center;
+					> a {
+						position: relative;
+						display: block;
+						width: 100%;
+						height: 80px;
+						line-height: 80px;
+						font-size: 16px;
+						font-weight: 500;
+						text-decoration: none;
+						&:after {
+							display: none;
+							position: absolute;
+							bottom: -6px;
+							left: 0;
+							width: 100%;
+							font-family: "fontello";
+							content: "\E802";
+							font-size: 18px;
+							line-height: 18px;
+							text-align: center;
+						}
+					}
+					> ul {
+						> li {
+							margin-top: 10px;
+							> a {
+								position: relative;
+								display: inline-block;
+								font-size: 14px;
+								line-height: 32px;
+								color: #666;
+								text-decoration: none;
+								span {
+									position: absolute;
+									left: 50%;
+									bottom: 0;
+									margin-left: 0;
+									width: 0;
+									height: 1px;
+									background-color: #797979;
+									@include trans();
+								}
+								&:hover, &:focus {
+									color: #333;
+									span {
+										margin-left: -50%;
+										width: 100%;
+									}
+								}
+							}
+							& + li {
+								margin-top: 3px;
+							}
+						}
+					}
+					&:hover, &:focus {
+						> a {
+							color: $kcolor;
+							&:after {
+								display: block;
+							}
+						}
+					}
+				}
+			}
+		}
+		.as {
+			position: absolute;
+			top: 100px;
+			left: 15px;
+			width: 335px;
+			border-right: 1px solid #dfdfdf;
+			h5 {
+				font-size: 15px;
+			}
+			.num {
+				font-size: 42px;
+				color: $kcolor;
+				line-height: 70px;
+				text-indent: -3px;
+			}
+			.mail {
+				overflow: hidden;
+				margin-bottom: 15px;
+				dt, dd {
+					float: left;
+					@include titi();
+					font-size: 13px;
+					font-weight: 600;
+				}
+				dt {
+					&:before {
+						margin-right: 3px;
+						font-family: "fontello";
+						content: "\E801";
+					}
+					&:after {
+						margin-left: 5px;
+						margin-right: 5px;
+						content: ":";
+					}
+				}
+			}
+			.info {
+				font-size: 12px;
+				line-height: 18px;
+				color: #aaa;
+				font-weight: 300;
+			}
+		}
+	}
+}
+
+body.nav-expanded {
+	#header {
+		@media (min-width: $lg) {
+			height: 300px;
+		}
+	}
+}
+
+#nav-aside {
+	z-index: 9999;
+	position: fixed;
+	top: 0;
+	left: -100%;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(#000, .3);
+	.nav-content {
+		position: absolute;
+		top: 0;
+		left: -100%;
+		padding-top: 45px;
+		padding-bottom: 200px;
+		max-width: 394px;
+		width: 100%;
+		height: 100%;
+		background-color: #fff;
+		@include trans($sec: .3s, $timing: cubic-bezier(0.46, 0.03, 0.52, 0.96));
+		.nav-header {
+			position: absolute;
+			left: 0;
+			top: 0;
+			width: 100%;
+			height: 45px;
+			background-color: $kcolor;
+			.quick {
+				margin-top: 8px;
+				margin-left: 10px;
+				ul {
+					display: inline-block;
+					li {
+						display: inline;
+						a {
+							float: left;
+							width: 90px;
+							height: 30px;
+							border: 1px solid #fff;
+							line-height: 28px;
+							font-size: 12px;
+							color: #fff;
+							text-align: center;
+						}
+						& + li {
+							a {
+								margin-left: 10px;
+							}
+						}
+					}
+				}
+			}
+			#btn-nav-close {
+				position: absolute;
+				top: 0;
+				right: 0;
+				padding: 11px;
+				border: 0;
+			}
+		}
+		.nav-body {
+			overflow: auto;
+			height: 100%;
+			.nav > ul {
+				> li {
+					border-bottom: 1px solid #ccc;
+					> a {
+						display: block;
+						padding-left: 10px;
+						padding-right: 10px;
+						height: 50px;
+						line-height: 50px;
+						font-size: 14px;
+						text-decoration: none;
+						color: #2b2b2b;
+						&:after {
+							float: right;
+							font-family: 'fontello';
+							content: '\E803';
+							color: #666;
+						}
+					}
+					> ul {
+						overflow: hidden;
+						height: 0;
+						@include trans();
+						> li {
+							> a {
+								display: block;
+								padding-left: 20px;
+								padding-right: 20px;
+								font-size: 12px;
+								line-height: 50px;
+								border-top: 1px solid #dadada;
+								background-color: #f4f4f4;
+								text-decoration: none;
+								color: #666;
+								&:focus, &:hover {
+									color: #ef4600;
+								}
+							}
+						}
+					}
+					&.selected {
+						> a {
+							color: #e10013;
+							&:after {
+								content: '\E804';
+								color: $kcolor;
+							}
+						}
+						> ul {
+							height: auto;
+						}
+					}
+				}
+			}
+		}
+		.nav-footer {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			padding: 20px;
+			width: 100%;
+			height: 200px;
+			.family-sites {
+				.btn {
+					height: 40px;
+					border-radius: 0;
+					font-size: 12px;
+					font-weight: thin;
+					color: #666;
+					text-align: left;
+					border-color: #d7d7d7;
+				}
+				.dropdown-menu {
+					margin-top: 0;
+					margin-bottom: 0;
+					padding-top: 10px;
+					padding-bottom: 10px;
+					width: 100%;
+					-webkit-box-shadow: none;
+					box-shadow: none;
+					border-radius: 0;
+					li {
+						a {
+							padding-left: 10px;
+							padding-right: 10px;
+							font-size: 12px;
+							line-height: 30px;
+						}
+					}
+				}
+				.dropup {
+					.btn{
+						&:after {
+							float: right;
+							font-family: 'fontello';
+							content: '\E809';
+						}
+					}
+				}
+			}
+		}
+	}
+	@media (min-width: $sm) {
+		.nav-content {
+			padding-top: 80px;
+			.nav-header {
+				height: 80px;
+				.sns {
+					margin-top: 20px;
+					margin-left: 20px;
+					li {
+						a {
+							width: 42px;
+							height: 42px;
+							font-size: 16px;
+							line-height: 42px;
+							&.bl {
+								i {
+									font-size: 22px;
+								}
+							}
+						}
+						& + li {
+							margin-left: 10px;
+						}
+					}
+				}
+				#btn-nav-close {
+					top: 15px;
+					right: 15px;
+					i:before {
+						font-size: 32px;
+					}
+				}
+			}
+			.nav-body {
+				> ul {
+					> li {
+						> a {
+							padding-left: 20px;
+							padding-right: 20px;
+							font-size: 18px;
+						}
+						> ul {
+							> li {
+								> a {
+									font-size: 15px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
+body.nav-opened {
+	#nav-aside {
+		left: 0;
+		.nav-content {
+			left: 0;
+		}
 	}
 }
