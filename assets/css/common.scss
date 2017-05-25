@@ -9,7 +9,7 @@ $kcolor: #e40009;
 @import url('//fonts.googleapis.com/earlyaccess/notosanskr.css');
 //@import url('https://fonts.googleapis.com/css?family=Noto+Sans:400,700');
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:200,300,400,600');
-//@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
 @import url('/assets/fontello/css/fontello.css');
 
 @mixin noto() {
@@ -22,6 +22,18 @@ $kcolor: #e40009;
 
 @mixin maven() {
     font-family: 'Maven Pro', sans-serif;
+}
+
+.noto {
+	font-family: 'Noto Sans KR', sans-serif;
+}
+
+.titi {
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.maven {
+	font-family: 'Maven Pro', sans-serif;
 }
 
 @mixin trans($prop: all, $sec: .15s, $timing: linear, $delay: 0s) {
