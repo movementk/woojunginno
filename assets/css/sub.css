@@ -186,6 +186,55 @@ button {
       .table-wrap .table.table-bordered tbody tr td:last-child {
         border-right: 0; }
 
+.decimal-list .list-title {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  font-weight: 400;
+  line-height: 50px; }
+  @media (min-width: 768px) {
+    .decimal-list .list-title {
+      width: 100%; } }
+.decimal-list .decimal-li {
+  width: 300px;
+  margin: 0 auto;
+  margin-bottom: 10px;
+  padding: 20px 30px;
+  border: 1px solid #ccc;
+  border-top: 0; }
+  @media (min-width: 768px) {
+    .decimal-list .decimal-li {
+      width: 100%; } }
+  .decimal-list .decimal-li li {
+    font-size: 13px;
+    color: #555;
+    vertical-align: middle;
+    line-height: 20px;
+    margin-bottom: 10px; }
+    .decimal-list .decimal-li li:last-child {
+      margin-bottom: 0; }
+    .decimal-list .decimal-li li .num {
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      font-style: normal;
+      font-size: 10px;
+      color: #fff;
+      text-align: center;
+      line-height: 20px;
+      font-family: 'Titillium Web', sans-serif;
+      border-radius: 50%;
+      margin-right: 10px;
+      vertical-align: top; }
+.decimal-list .or {
+  background-color: #f08501; }
+.decimal-list .re {
+  background-color: #e10013; }
+.decimal-list .bl {
+  background-color: #444da1; }
+
 .btn {
   display: inline-block;
   width: 90px;
