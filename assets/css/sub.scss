@@ -50,6 +50,386 @@ button {
     background: none;
 }
 
+// 원형 숫자
+.circle-num {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px;
+    @include titi();
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: top;
+}
+
+// 배경색 옵션
+.or {
+    background-color: #f08501;
+}
+.re {
+    background-color: #e10013;
+}
+.bl {
+    background-color: #444da1;
+}
+
+// 페이지 헤더
+.page-header {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    border-bottom: 1px solid #e2e2e2;
+    background-image: url(/assets/images/sub/sub_visual_bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50% 50%;
+    .page-info {
+        padding: 36px 0;
+        position: relative;
+        @media(min-width: $sm) {
+            padding: 45px 0 39px;
+        }
+        @media(min-width: $lg) {
+            padding: 92px 0 71px;
+        }
+        h2 {
+            font-size: 65px;
+            color: #fff;
+            font-weight: bold;
+            text-shadow: 0px 0px 10px #999;
+            @include maven();
+        }
+        > p {
+            font-size: 18px;
+            color: #fff;
+            font-weight: 300;
+            @media(min-width: $sm) {
+                margin-top: 10px;
+            }
+            @media(min-width: $lg) {
+                font-size: 20px;
+            }
+        }
+        .btn-link-area {
+            position: absolute;
+            top: 0;
+            width: 100%;
+            padding: 0 10px;
+            @media(min-width: $lg) {
+                width: 1170px;
+                left: 50%;
+                padding: 0;
+                margin-left: -585px;
+            }
+            .btn-link {
+                display: block;
+                line-height: 97px;
+                @media(min-width: $sm) {
+                    line-height: 190px;
+                }
+                @media(min-width: $lg) {
+                    line-height: 272px;
+                }
+                img {
+                    display: inline-block;
+                    width: 12px;
+                    height: auto;
+                    @media(min-width: $sm) {
+                        width: 34px;
+                    }
+                }
+                &.pre-btn {
+                    float: left;
+                }
+                &.next-btn {
+                    float: right;
+                }
+            }
+        }
+    }
+    .lnb {
+        @media(min-width: $lg) {
+            width: 1170px;
+            height: 64px;
+            margin: 0 auto;
+        }
+        .btn {
+            position: relative;
+            width: 100%;
+            font-size: 13px;
+            line-height: 40px;
+            font-weight: 400;
+            color: #e10013;
+            background-color: rgba(255, 255, 255, .95);
+            @media(min-width: $sm) {
+                font-size: 15px;
+                height: 55px;
+            }
+            @media(min-width: $lg) {
+                display: none;
+            }
+            &:focus {
+                color: #e10013;
+                background-color: rgba(255, 255, 255, .95);
+            }
+            .more-icon {
+                position: absolute;
+                top: 0;
+                right: 0;
+                width: 40px;
+                height: 40px;
+                font-style: normal;
+                line-height: 40px;
+                background-color: #f08501;
+                &:after {
+                    font-size: 16px;
+                    color: #fff;
+                    content: "\F107";
+                    font-family: "fontello";
+                    @media(min-width: $sm) {
+                        font-size: 20px;
+                    }
+                }
+                @media(min-width: $sm) {
+                    width: 64px;
+                    height: 55px;
+                    line-height: 55px;
+                }
+            }
+        }
+        .dropdown-menu {
+            width: 100%;
+            border: 0;
+            margin: 0;
+            padding: 0;
+            border-radius: 0;
+            box-shadow: none;
+            li {
+                text-align: center;
+                border-bottom: 1px solid #ccc;
+                background-color: rgba(235, 235, 235, .95);
+                a {
+                    font-size: 13px;
+                    color: #333;
+                    font-weight: 400;
+                    line-height: 40px;
+                    padding: 0;
+                    &:hover {
+                        background: none;
+                    }
+                    @media(min-width: $sm) {
+                        font-size: 15px;
+                        line-height: 55px;
+                    }
+                }
+                &.active {
+                    a {
+                        color: #e10013;
+                        background-color: rgba(235, 235, 235, .95);
+                        &:hover, &:focus {
+                            
+                        }
+                    }
+                }
+            }
+            @media(min-width: $lg) {
+                display: block;
+                top: 0;
+                font-size: 0;
+                li {
+                    width: 50%;
+                    display: inline-block;
+                    border-right: 1px solid #e2e2e2;
+                    &:last-child {
+                        border-right: 0;
+                    }
+                    &.active {
+                        a {
+                            background-color: rgba(255, 255, 255, .95);
+                            &:hover {
+                                opacity: 1;
+                            }
+                        }
+                    }
+                    a {
+                        height: 64px;
+                        font-size: 15px;
+                        line-height: 64px;
+                        background-color: rgba(255, 255, 255, .95);
+                        @include trans();
+                        &:hover {
+                            opacity: .8;
+                        }
+                    }
+                }
+            }
+        }
+        &.open {
+            border-bottom: 0;
+            .btn {
+                .more-icon {
+                    &:after {
+                        content: "\F106";
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+// 페이지 Title 및 article 타이틀
+.section-header {
+    text-align: center;
+    padding: 55px 0 60px;
+    @media(min-width: $sm) {
+        padding: 80px 0 65px;
+    }
+    @media(min-width: $lg) {
+        padding: 110px 0;
+    }
+    .page-title {
+        font-size: 25px;
+        color: #2b2b2b;
+        font-weight: 300;
+        @media(min-width: $sm) {
+            font-size: 30px;
+        }
+        @media(min-width: $lg) {
+            font-size: 45px;
+        }
+    }
+    .summary {
+        font-size: 14px;
+        color: #2b2b2b;
+        font-weight: 300;
+        line-height: 25px;
+        margin-top: 35px;
+        @media(min-width: $sm) {
+            font-size: 20px;
+            line-height: 30px;
+            margin-top: 50px;
+        }
+        @media(min-width: $lg) {
+            margin-top: 70px;
+        }
+    }
+}
+.article-header{
+    text-align: center;
+    padding: 60px 0 40px;
+    @media(min-width: $sm) {
+        padding: 110px 0 60px;
+    }
+    .content-title {
+        font-size: 20px;
+        color: #2b2b2b;
+        font-weight: 300;
+        @media(min-width: $sm) {
+            font-size: 30px;
+        }
+    }
+    hr {
+        width: 30px;
+        display: inline-block;
+        margin: 0;
+        margin-top: 25px;
+        border-top: 3px solid #e10013;
+        @media(min-width: $sm) {
+            margin-top: 30px;
+        }
+    }
+    .summary {
+        font-size: 13px;
+        color: #555;
+        font-weight: 300;
+        line-height: 24px;
+        margin-top: 18px;
+        @media(min-width: $sm) {
+            font-size: 14px;
+            line-height: 28px;
+            margin-top: 20px;
+        }
+        @media(min-width: $lg) {
+            font-size: 16px;
+            line-height: 30px;
+            margin-top: 35px;
+        }
+        .or-txt {
+            color: #f08501;
+            font-style: normal;
+        }
+    }
+}
+
+// 탭 리스트
+.nav-tabs {
+    border: 0;
+    > ul {
+        font-size: 0;
+        > li {
+            display: inline-block;
+            width: 50%;
+            border: 1px solid #dfdfdf;
+            border-right: 0;
+            &:nth-of-type(2n + 2) {
+                border-right: 1px solid #dfdfdf;
+            }
+            &:nth-of-type(3) {
+                border-top: 0;
+            }
+            &:nth-of-type(4) {
+                border-top: 0;
+            }
+            &.active {
+                border-color: #f0840c;
+                background-color: #f0840c;
+                a {
+                    color: #fff;
+                }
+            }
+            @media(min-width: $sm) {
+                width: 25%;
+                &:nth-of-type(2n + 2) {
+                    border-right: 0;
+                }
+                &:nth-of-type(3) {
+                    border-top: 1px solid #dfdfdf;
+                }
+                &:nth-of-type(4) {
+                    border-top: 1px solid #dfdfdf;
+                }
+                &:last-child {
+                    border-right: 1px solid #dfdfdf;
+                }
+            }
+            a {
+                display: block;
+                height: 45px;
+                font-size: 13px;
+                color: #2b2b2b;
+                font-weight: 300;
+                text-align: center;
+                line-height: 43px;
+                &:hover {
+                    text-decoration: none;
+                }
+                @media(min-width: $sm) {
+                    font-size: 14px;
+                }
+                @media(min-width: $lg) {
+                    font-size: 15px;
+                }
+            }
+        }
+    }
+}
+
 // 검색폼
 .search-form {
     text-align: center;
@@ -99,6 +479,12 @@ button {
             @media(min-width: $sm) {
                 width: 38px;
                 height: 38px;
+            }
+            @media(min-width: $lg) {
+                @include trans();
+                &:hover {
+                    opacity: .5;
+                }
             }
             .icon-search {
                 font-size: 15px;
@@ -218,6 +604,12 @@ button {
         line-height: 50px;
         @media(min-width: $sm) {
             width: 100%;
+            height: 60px;
+            font-size: 16px;
+            line-height: 60px;
+        }
+        @media(min-width: $lg) {
+            font-size: 17px;
         }
     }
     .decimal-li {
@@ -229,6 +621,12 @@ button {
         border-top: 0;
         @media(min-width: $sm) {
             width: 100%;
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        @media(min-width: $lg) {
+            padding-left: 50px;
+            padding-right: 50px;
         }
         li {
             font-size: 13px;
@@ -239,61 +637,46 @@ button {
             &:last-child {
                 margin-bottom: 0;
             }
-            .num {
-                width: 20px;
-                height: 20px;
-                display: inline-block;
-                font-style: normal;
-                font-size: 10px;
-                color: #fff;
-                text-align: center;
-                line-height: 20px;
-                @include titi();
-                border-radius: 50%;
-                margin-right: 10px;
-                vertical-align: top;
+            @media(min-width: $sm) {
+                font-size: 14px;
+            }
+            @media(min-width: $lg) {
+                font-size: 15px;
             }
         }
     }
-    // 배경색 옵션
-    .or {
-        background-color: #f08501;
-    }
-    .re {
-        background-color: #e10013;
-    }
-    .bl {
-        background-color: #444da1;
-    }
 }
 
-
 // 버튼 목록 및 종류
-.btn {
-    display: inline-block;
-    width: 90px;
-    height: 40px;
-    font-size: 14px;
-    line-height: 40px;
-    padding: 0;
-    border: 0;
-    border-radius: 0;
-    &.btn-orange {
-        background-color: #f08501;
-    }
-    &.btn-gray {
-        background-color: #595757;
-    }
-    @media(min-width: $sm) {
-        font-size: 15px;
-        width: 120px;
-        height: 45px;
-        line-height: 45px;
-    }
-    @media(min-width: $lg) {
-        @include trans();
-        &:hover {
-            opacity: .8;
+.sub {
+    main {
+        .btn {
+            display: inline-block;
+            width: 90px;
+            height: 40px;
+            font-size: 14px;
+            line-height: 40px;
+            padding: 0;
+            border: 0;
+            border-radius: 0;
+            &.btn-orange {
+                background-color: #f08501;
+            }
+            &.btn-gray {
+                background-color: #595757;
+            }
+            @media(min-width: $sm) {
+                font-size: 15px;
+                width: 120px;
+                height: 45px;
+                line-height: 45px;
+            }
+            @media(min-width: $lg) {
+                @include trans();
+                &:hover {
+                    opacity: .8;
+                }
+            }
         }
     }
 }

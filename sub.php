@@ -1,99 +1,86 @@
 <?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/dochead.php'); ?>
-<link href="/assets/css/main.css" rel="stylesheet">
 <link href="/assets/css/sub.css" rel="stylesheet">
 </head>
 <body class="sub">
-	<nav id="top-nav" class="visible-lg">
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-6">
-					계열사 사이트
-				</div>
-				<div class="col-xs-6">
-					빠른 메뉴
-				</div>
-			</div>
-		</div>
-	</nav>
-	<header id="header">
-<!--
-		<div class="container">
-			<div class="row">
-				<div class="col-xs-12 col-md-3">
-					<button type="button" class="btn btn-link"><i class="icon-menu"></i></button>
-					<h1><a href="/"><img src="/assets/images/logo.png" alt="우정비에스씨"></a></h1>
-					<a class="btn btn-link" href="#"><i class="icon-wrench"></i></a>
-				</div>
-				<div class="hidden-xs col-md-9">
-					<nav id="nav">
-						<ul>
-							<li>
-								<a href="#">이노서비스</a>
-								<ul>
-									<li><a href="#">사업비전</a></li>
-									<li><a href="#">홍보/영상</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">기술서비스상품</a>
-								<ul>
-									<li><a href="#">유지보수 서비스</a></li>
-									<li><a href="#">과산화수소멸균 서비스</a></li>
-									<li><a href="#">장비검교정 서비스</a></li>
-									<li><a href="#">우정특성화 서비스</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">견적문의</a>
-								<ul>
-									<li><a href="#">기술서비스 견적문의</a></li>
-									<li><a href="#">RBDS가능 알아보기</a></li>
-								</ul>
-							</li>
-							<li>
-								<a href="#">우정콜센터</a>
-								<ul>
-									<li><a href="#">공지사항</a></li>
-									<li><a href="#">A/S현황 조회</a></li>
-									<li><a href="#">검교정주기 조회</a></li>
-									<li><a href="#">1:1 문의하기</a></li>
-									<li><a href="#">고객 만족도 평가</a></li>
-								</ul>
-							</li>
-						</ul>
-					</nav>
-				</div>
-			</div>
-			<div class="row visible-lg">
-				<div class="col-xs-3">1522-1277</div>
-			</div>
-		</div>
--->
-	</header>
-	<aside id="aside-nav">
-		<div class="nav-content">
-			<div class="nav-header">
-				
-			</div>
-			<div class="nav-body">
-				
-			</div>
-			<div class="nav-footer">
-				
-			</div>
-		</div>
-	</aside>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/top-nav.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/nav-aside.php'); ?>
 	
 	<!-- Sub Content Start -->
 	<main id="content">
-<!--
 	    <div class="page-header">
-	        background-image 
-	        Header Text 
-	        Local Navigation Bar
+            <div class="page-info">
+                <h2 class="hidden-xs">INNO SERVICE</h2>
+                <p>이노서비스</p>
+                <div class="btn-link-area">
+                    <a href="#" class="btn-link pre-btn" role="button">
+                        <img src="/assets/images/sub/left_link_btn.png" alt="이전 페이지">
+                        <span class="sr-only">이전 페이지</span>
+                    </a>
+                    <a href="#" class="btn-link next-btn" role="button">
+                        <img src="/assets/images/sub/right_link_btn.png" alt="다음 페이지">
+                        <span class="sr-only">이전 페이지</span>
+                    </a>
+                </div>
+	        </div>
+            <div class="lnb dropdown">
+                <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                    홍보/영상
+                    <i class="more-icon">
+                        <span class="sr-only">더보기</span>
+                    </i>
+                </button>
+                <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                    <li><a href="#">사업비전</a></li>
+                    <li class="active"><a href="#">홍보/영상</a></li>
+                </ul>
+            </div>
 	    </div>
--->
 		<div class="container">
+            <h1 class="style-title">Section Title &amp; article Title</h1>
+            <section>
+                <div class="section-header">
+                    <h2 class="page-title">홍보/영상</h2>
+                    <p class="summary">
+                        (주)우정비에스씨 이노서비스는 장비 판매에서<br>
+                        더 나아가 A/S까지도 책임지는 서비스를 제공하겠습니다.
+                    </p>
+                </div>
+            </section>
+            <article>
+                <div class="article-header">
+                    <h3 class="content-title">엔지니어 소개</h3>
+                    <hr>
+                    <p class="summary">
+                        실험동물 센터 내 모든 장비를 대상으로 하며,
+                        제조사와상관없이최상의 A/S를 제공하고 있습니다.
+                        A/S 접수 전용 핫라인(<i class="or-txt">우정콜센터 1522-1277</i>)을
+                        구축 및 운영하여 더욱 신속하고 편리한 A/S
+                        진행이 가능합니다.
+                        장비 판매에서 더 나아가 A/S까지도 책임지는
+                        서비스를 제공하겠습니다.
+                    </p>
+                </div>
+            </article>
+            
+            <h1 class="style-title">탭 리스트</h1>
+            <nav class="nav-tabs tab-link-list">
+                <ul>
+                    <li>
+                        <a href="#">과산화수소증기멸균</a>
+                    </li>
+                    <li class="active">
+                        <a href="#">공간멸균서비스</a>
+                    </li>
+                    <li>
+                        <a href="#">멸균공정개발서비스</a>
+                    </li>
+                    <li>
+                        <a href="#">멸균자동화 설비 공사</a>
+                    </li>
+                </ul>
+            </nav>
+            
             <h1 class="style-title">검색폼</h1>
             <div class="search-form">
                 <form action="#">
@@ -181,25 +168,25 @@
 		            <div class="col-xs-12 col-sm-4">
 		                <h2 class="list-title or">개별환기사육시스템</h2>
 		                <ol class="decimal-li">
-		                    <li><i class="num or">01</i>블로워 급/배기 fan</li>
-		                    <li><i class="num or">02</i>유량센서</li>
-		                    <li><i class="num or">03</i>케이지 클램프</li>
+		                    <li><i class="circle-num or">01</i>블로워 급/배기 fan</li>
+		                    <li><i class="circle-num or">02</i>유량센서</li>
+		                    <li><i class="circle-num or">03</i>케이지 클램프</li>
 		                </ol>
 		            </div>
 		            <div class="col-xs-12 col-sm-4">
 		                <h2 class="list-title re">세척기</h2>
 		                <ol class="decimal-li">
-		                    <li><i class="num re">01</i>가스켓류</li>
-		                    <li><i class="num re">02</i>센서&amp;게이지</li>
-		                    <li><i class="num re">03</i>솔레노이드 벨브</li>
+		                    <li><i class="circle-num re">01</i>가스켓류</li>
+		                    <li><i class="circle-num re">02</i>센서&amp;게이지</li>
+		                    <li><i class="circle-num re">03</i>솔레노이드 벨브</li>
 		                </ol>
 		            </div>
 		            <div class="col-xs-12 col-sm-4">
                         <h2 class="list-title bl">AUTOCLAVE</h2>
 		                <ol class="decimal-li">
-		                    <li><i class="num bl">01</i>메인 벨브류</li>
-		                    <li><i class="num bl">02</i>챔버 내부 Cleaning</li>
-		                    <li><i class="num bl">03</i>솔레노이드 벨</li>
+		                    <li><i class="circle-num bl">01</i>메인 벨브류</li>
+		                    <li><i class="circle-num bl">02</i>챔버 내부 Cleaning</li>
+		                    <li><i class="circle-num bl">03</i>솔레노이드 벨</li>
 		                </ol>
 		            </div>
 		        </div>
@@ -252,10 +239,7 @@
         </div>
 	</main>
 	<!-- //Sub Content End -->
-	
-	
-	<footer id="footer">
-		
-	</footer>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
+	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 </body>
 </html>
