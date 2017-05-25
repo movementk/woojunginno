@@ -880,6 +880,9 @@ body.nav-opened #nav-aside {
   body.nav-opened #nav-aside .nav-content {
     left: 0; }
 
+#content {
+  min-height: 500px; }
+
 #footer {
   padding-top: 20px;
   padding-bottom: 30px;
@@ -887,7 +890,7 @@ body.nav-opened #nav-aside {
   #footer .address dl, #footer .contact dl {
     overflow: hidden; }
     #footer .address dl dt, #footer .address dl dd, #footer .contact dl dt, #footer .contact dl dd {
-      float: left;
+      display: inline;
       font-weight: normal;
       line-height: 20px;
       color: #666; }
