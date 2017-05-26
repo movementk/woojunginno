@@ -8,6 +8,7 @@
 	
 	<!-- Sub Content Start -->
 	<main id="content">
+	    <!-- Page Header -->
 	    <div class="page-header">
             <div class="page-info">
                 <h2 class="hidden-xs">INNO SERVICE</h2>
@@ -36,6 +37,8 @@
                 </ul>
             </div>
 	    </div>
+	    <!-- //Page Header -->
+	    
 		<div class="container">
             <h1 class="style-title">Section Title &amp; article Title</h1>
             <section>

@@ -86,8 +86,10 @@ button {
     border-bottom: 1px solid #e2e2e2;
     background-image: url(/assets/images/sub/sub_visual_bg.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: 50% 50%;
+    @media(min-width: $lg) {
+        background-size: cover;
+    }
     .page-info {
         padding: 36px 0;
         position: relative;
