@@ -95,6 +95,12 @@
       "css": "search",
       "code": 59404,
       "src": "fontawesome"
+    },
+    {
+      "uid": "21115bb09fa242341cb91ed34710aa13",
+      "css": "attach-1",
+      "code": 59405,
+      "src": "websymbols"
     }
   ]
 }
