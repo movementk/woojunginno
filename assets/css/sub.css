@@ -415,8 +415,7 @@ button {
   .search-form .form-group {
     position: relative;
     width: 180px;
-    display: inline-block;
-    z-index: 1; }
+    display: inline-block; }
     @media (min-width: 768px) {
       .search-form .form-group {
         width: 350px; } }
@@ -460,7 +459,7 @@ button {
   margin-bottom: 0;
   border-top: 3px solid #e40009; }
   .table-wrap .table thead tr th {
-    font-size: 14px;
+    font-size: 13px;
     color: #333;
     font-weight: 400;
     vertical-align: middle;
@@ -472,7 +471,7 @@ button {
       .table-wrap .table thead tr th {
         font-size: 15px; } }
   .table-wrap .table tbody tr th {
-    font-size: 14px;
+    font-size: 13px;
     color: #333;
     font-weight: 400;
     vertical-align: middle;
@@ -485,7 +484,7 @@ button {
         font-size: 15px;
         padding-left: 30px; } }
   .table-wrap .table tbody tr td {
-    font-size: 14px;
+    font-size: 13px;
     color: #555;
     font-weight: 300;
     vertical-align: middle;
@@ -571,7 +570,7 @@ button {
   display: inline-block;
   width: 90px;
   height: 40px;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 40px;
   padding: 0;
   border: 0;

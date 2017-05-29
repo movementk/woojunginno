@@ -252,6 +252,11 @@
                         line-height: 20px;
                         font-size: 13px;
                         color: #666;
+                        font-weight: 300;
+                        @media(min-width: $sm) {
+                            font-size: 15px;
+                            line-height: 32px;
+                        }
                     }
                     > img {
                         display: block;
@@ -260,20 +265,36 @@
                     }
                     .attach {
                         margin-top: 40px;
+                        @media(min-width: $md) {
+                            margin-top: 70px;
+                        }
                         dd {
+                            position: relative;
+                            padding-left: 20px;
                             &:before {
+                                position: absolute;
+                                top: 2px;
+                                left: 0;
                                 font-size: 12px;
                                 color: #888;
                                 content: "\E80D";
                                 font-family: "fontello";
                                 margin-right: 10px;
                                 vertical-align: middle;
+                                @media(min-width: $sm) {
+                                    font-size: 13px;
+                                }
                             }
                             a {
-                                display: inline-block;
+                                display: block;
                                 font-size: 13px;
                                 color: #888;
-                                &:after {
+                                font-weight: 300;
+                                margin-top: 5px;
+                                &:first-child {
+                                    margin-top: 0;
+                                }
+                                &:after { 
                                     content: ",";
                                     padding-right: 5px;
                                 }
@@ -283,7 +304,155 @@
                                         padding: 0;
                                     }
                                 }
+                                @media(min-width: $sm) {
+                                    font-size: 14px;
+                                }
+                                @media(min-width: $lg) {
+                                    display: inline-block;
+                                }
                             }
+                            @media(min-width: $sm) {
+                                padding-left: 25px;
+                                &:before {
+                                    top: 3px;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .next-link {
+            border-top: 1px solid #595757;
+            border-bottom: 1px solid #595757;
+            li {
+                display: block;
+                padding: 20px 10px;
+                &:first-child {
+                    border-bottom: 1px solid #dfdfdf;
+                }
+                @media(min-width: $sm) {
+                    padding-left: 30px;
+                    padding-right: 30px;
+                }
+                dl {
+                    font-size: 0;
+                    dt {
+                        display: inline-block;
+                        width: 60px;
+                        font-size: 13px;
+                        color: #2b2b2b;
+                        font-weight: 300;
+                        vertical-align: top;
+                        &:after {
+                            display: inline-block;
+                            font-size: 10px;
+                            content: "|";
+                            color: #ccc;
+                            margin-left: 13px;
+                            vertical-align: top;
+                            margin-top: 1px;
+                            @media(min-width: $sm) {
+                                font-size: 13px;
+                                margin-top: 0;
+                                margin-left: 30px;
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            width: 95px;
+                            font-size: 15px;
+                        }
+                    }
+                    dd {
+                        width: 78%;
+                        display: inline-block;
+                        a {
+                            display: block;
+                            font-size: 13px;
+                            color: #666;
+                            overflow: hidden;
+                            text-overflow: ellipsis;
+                            white-space: nowrap;
+                            vertical-align: top;
+                            font-weight: 300;
+                            @media(min-width: $sm) {
+                                font-size: 15px;
+                            }
+                        }
+                        @media(min-width: $sm) {
+                            width: 85%;
+                        }
+                        @media(min-width: $lg) {
+                            width: 91%;
+                        }
+                    }
+                }
+            }
+        }
+    }
+    .btn-area {
+        margin-top: 40px;
+        @media(min-width: $sm) {
+            text-align: right;
+            margin-top: 60px;
+            p {
+                .btn-orange {
+                    width: 170px;
+                }
+            }
+        }
+        @media(min-width: $sm) {
+            margin-top: 40px;
+        }
+    }
+}
+
+// A/S 현황조회
+.as-search {
+    .section-content {
+        text-align: center;
+        padding: 40px 20px 45px; 
+        border: 1px solid #dfdfdf;
+        background-color: #fafafa;
+        @media(min-width: $sm) {
+            padding: 100px 0;
+        }
+        .summary {
+            font-size: 13px;
+            color: #333;
+            line-height: 24px;
+            padding-top: 115px;
+            background-image: url(/assets/images/center/as_search_bg.png);
+            background-repeat: no-repeat;
+            background-size: 96px auto;
+            background-position: 50% 0;
+            @media(min-width: $sm) {
+                font-size: 16px;
+                padding-top: 130px;
+                background-size: 120px auto;
+            }
+        }
+        .confirm {
+            margin-top: 30px;
+            .form-group {
+                margin-bottom: 10px;
+                .form-control {
+                    width: 260px;
+                    height: 45px;
+                    margin: 0 auto;
+                    @media(min-width: $sm) {
+                        width: 370px;
+                    }
+                }
+            }
+            .btn-area {
+                p {
+                    .btn-orange {
+                        width: 260px;
+                        height: 45px;
+                        line-height: 45px;
+                        @media(min-width: $sm) {
+                            width: 370px;
                         }
                     }
                 }
@@ -292,9 +461,136 @@
     }
 }
 
-
-
-
+// A/S 조회 결과
+.search-result {
+    .section-content {
+        .step-list {
+            padding: 60px 0 65px;
+            background-color: #f7f8f9;
+            @media(min-width: $sm) {
+                padding: 110px 0; 
+            }
+            figure {
+                .img-responsive {
+                    margin: 0 auto;
+                }
+            }
+        }
+        .result {
+            padding-top: 60px;
+            @media(min-width: $sm) {
+                padding-top: 70px;
+            }
+            @media(min-width: $lg) {
+                padding-top: 110px;
+            }
+            h4 {
+                font-size: 20px;
+                color: #2b2b2b;
+                font-weight: 300;
+                margin-bottom: 20px;
+                @media(min-width: $sm) {
+                    font-size: 30px;
+                    margin-bottom: 30px;
+                }
+            }
+            .sucess-list {
+                font-size: 0;
+                border-top: 3px solid #e40009;
+                > div {
+                    display: block;
+                    @media(min-width: $sm) {
+                        display: inline-block;
+                        width: 50%;
+                        &:nth-of-type(1) {
+                            width: 100%;
+                        }
+                        &:nth-of-type(2) {
+                            width: 100%;
+                        }
+                        &:nth-of-type(5) {
+                            width: 100%;
+                        }
+                    }
+                    dl {
+                        width: 100%;
+                        display: table;
+                        font-size: 0;
+                        border-bottom: 1px solid #dfdfdf;
+                        dt {
+                            display: table-cell;
+                            width: 85px;
+                            font-weight: 400;
+                            font-size: 13px;
+                            color: #333;
+                            vertical-align: middle;
+                            padding: 20px 10px;
+                            background-color: #f8f8f8;
+                            @media(min-width: $sm) {
+                                width: 125px;
+                                padding-left: 30px;
+                                font-size: 15px;
+                            }
+                            @media(min-width: $lg) {
+                                width: 170px;
+                            }
+                        }
+                        dd {
+                            display: table-cell;
+                            font-weight: 300;
+                            font-size: 13px;
+                            color: #555;
+                            vertical-align: middle;
+                            padding: 20px 10px;
+                            @media(min-width: $sm) {
+                                font-size: 15px;
+                                padding-left: 30px;
+                            }
+                        }
+                        &.problem-list {
+                            dt {
+                                vertical-align: top;
+                            }
+                            dd {
+                                > ul {
+                                    > li {
+                                        display: block;
+                                        line-height: 22px;
+                                        margin-bottom: 10px;
+                                        &:before {
+                                            content: "-";
+                                            padding-right: 5px;
+                                        }
+                                        &:last-child {
+                                            margin-bottom: 0;
+                                        }
+                                    }
+                                }
+                                @media(min-width: $sm) {
+                                    
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .btn-area {
+                margin-top: 40px;
+                @media(min-width: $sm) {
+                    text-align: right;
+                }
+                p {
+                    .btn-orange {
+                        width: 300px;
+                        @media(min-width: $sm) {
+                            width: 170px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
 
 
 
