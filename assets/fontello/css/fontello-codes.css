@@ -4,9 +4,11 @@
 .icon-up-dir:before { content: '\e802'; } /* '' */
 .icon-plus:before { content: '\e803'; } /* '' */
 .icon-minus:before { content: '\e804'; } /* '' */
+.icon-lock-filled:before { content: '\e805'; } /* '' */
 .icon-search:before { content: '\e80c'; } /* '' */
 .icon-attach-1:before { content: '\e80d'; } /* '' */
 .icon-menu:before { content: '\f008'; } /* '' */
+.icon-attach:before { content: '\f06a'; } /* '' */
 .icon-angle-double-left:before { content: '\f100'; } /* '' */
 .icon-angle-double-right:before { content: '\f101'; } /* '' */
 .icon-angle-double-up:before { content: '\f102'; } /* '' */
