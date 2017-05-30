@@ -44,9 +44,9 @@
 	    <!-- //Page Header -->
 	    <section class="search-result">
             <div class="section-header">
-                <h3 class="page-title"> A/S 현황조회</h3>
+                <h3 class="page-title">A/S 현황조회</h3>
                 <p class="summary">
-                   (주)우정비에스씨 이노서비스는 장비 판매에서<br>
+                    (주)우정비에스씨 이노서비스는 장비 판매에서<br>
                     더 나아가 A/S까지도 책임지는 서비스를<br class="visible-xs">
                     제공하겠습니다.
                 </p>

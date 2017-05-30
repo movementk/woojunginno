@@ -27,28 +27,28 @@
 	        </div>
             <div class="lnb dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    공지사항
+                    1:1문의하기
                     <i class="more-icon">
                         <span class="sr-only">더보기</span>
                     </i>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li class="active"><a href="/center/notice_list.php">공지사항</a></li>
+                    <li><a href="/center/notice_list.php">공지사항</a></li>
                     <li><a href="#">A/S현황조회</a></li>
                     <li><a href="#">검교정주기조회</a></li>
-                    <li><a href="#">1:1문의하기</a></li>
+                    <li class="active"><a href="#">1:1문의하기</a></li>
                     <li><a href="#">고객만족도평가</a></li>
                 </ul>
             </div>
 	    </div>
 	    <!-- //Page Header -->
-	    <section class="notice-list">
+	    <section class="inquiry-list">
             <div class="container">
                 <div class="section-header">
-                    <h3 class="page-title">공지사항</h3>
+                    <h3 class="page-title">1:1문의하기</h3>
                     <p class="summary">
-                        우정BSC의 새로운 소식 및 공지사항을<br class="visible-xs">
-                        알려드립니다.
+                        궁금하신 사항이 있으시다면 문의해주세요!<br>
+                        빠르고 친절하게 답변드리겠습니다.
                     </p>
                 </div>
                 <div class="section-content">
@@ -72,7 +72,7 @@
                         <ul class="dt-list">
                             <li>번호</li>
                             <li>제목</li>
-                            <li>작성일</li>
+                            <li>작성자</li>
                             <li>조회수</li>
                         </ul>
                         <div class="list-content">
@@ -81,104 +81,171 @@
                                     <ul>
                                         <li class="num">123</li>
                                         <li class="subject">
-                                            <a href="#">공고합병 및 주권제출공고</a>
+                                            <a href="#">
+                                                제품견적***
+                                                <i class="icon-lock-filled">
+                                                    <span class="sr-only">비밀글</span>
+                                                </i>
+                                                <i class="icon-attach">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </a>
                                         </li>
-                                        <li class="date">2017-04-01</li>
-                                        <li class="count">123</li>
+                                        <li class="u-name">홍길동</li>
+                                        <li class="reply waiting">답변 대기중</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
                                         <li class="num">123</li>
                                         <li class="subject">
-                                            <a href="#">합병승인 임시주주총회 소집통지 공고</a>
+                                            <a href="#">
+                                                궁금한 ***
+                                                <i class="icon-lock-filled">
+                                                    <span class="sr-only">비밀글</span>
+                                                </i>
+                                                <i class="icon-attach">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </a>
                                         </li>
-                                        <li class="date">2017-04-01</li>
-                                        <li class="count">123</li>
+                                        <li class="u-name">홍길동</li>
+                                        <li class="reply waiting">답변 대기중</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
                                         <li class="num">123</li>
                                         <li class="subject">
-                                            <a href="#">주주명부폐쇄 기준일 공고</a>
+                                            <a href="#">
+                                                AS신청***
+                                                <i class="icon-lock-filled">
+                                                    <span class="sr-only">비밀글</span>
+                                                </i>
+                                            </a>
                                         </li>
-                                        <li class="date">2017-04-01</li>
-                                        <li class="count">123</li>
+                                        <li class="u-name">홍길동</li>
+                                        <li class="reply">답변완료</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
                                         <li class="num">123</li>
                                         <li class="subject">
-                                            <a href="#">결과분석에서 논문데이터까지 단 한번의 실험으로 해결하세요!</a>
+                                            <a href="#">
+                                                문의제목***
+                                                <i class="icon-lock-filled">
+                                                    <span class="sr-only">비밀글</span>
+                                                </i>
+                                            </a>
                                         </li>
-                                        <li class="date">2017-04-01</li>
-                                        <li class="count">123</li>
+                                        <li class="u-name">홍길동</li>
+                                        <li class="reply waiting">답변 대기중</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
                                         <li class="num">123</li>
                                         <li class="subject">
-                                            <a href="#">CROWISE 효능/안전성 평가</a>
+                                            <a href="#">
+                                                제품견적***
+                                                <i class="icon-lock-filled">
+                                                    <span class="sr-only">비밀글</span>
+                                                </i>
+                                                <i class="icon-attach">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </a>
                                         </li>
-                                        <li class="date">2017-04-01</li>
-                                        <li class="count">123</li>
+                                        <li class="u-name">홍길동</li>
+                                        <li class="reply">답변완료</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
                                         <li class="num">123</li>
                                         <li class="subject">
-                                            <a href="#">CROWISE 유전독성시험서비스(Genetic Toxicology)</a>
+                                            <a href="#">
+                                                궁금한 ***
+                                                <i class="icon-lock-filled">
+                                                    <span class="sr-only">비밀글</span>
+                                                </i>
+                                            </a>
                                         </li>
-                                        <li class="date">2017-04-01</li>
-                                        <li class="count">123</li>
+                                        <li class="u-name">홍길동</li>
+                                        <li class="reply">답변완료</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
                                         <li class="num">123</li>
                                         <li class="subject">
-                                            <a href="#">CROWISE 위탁사육관리</a>
+                                            <a href="#">
+                                                AS신청***
+                                                <i class="icon-lock-filled">
+                                                    <span class="sr-only">비밀글</span>
+                                                </i>
+                                                <i class="icon-attach">
+                                                    <span class="sr-only">첨부파일</span>
+                                                </i>
+                                            </a>
                                         </li>
-                                        <li class="date">2017-04-01</li>
-                                        <li class="count">123</li>
+                                        <li class="u-name">홍길동</li>
+                                        <li class="reply">답변완료</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
                                         <li class="num">123</li>
                                         <li class="subject">
-                                            <a href="#">CROWISE 비만효력시험</a>
+                                            <a href="#">
+                                                문의제목***
+                                                <i class="icon-lock-filled">
+                                                    <span class="sr-only">비밀글</span>
+                                                </i>
+                                            </a>
                                         </li>
-                                        <li class="date">2017-04-01</li>
-                                        <li class="count">123</li>
+                                        <li class="u-name">홍길동</li>
+                                        <li class="reply">답변완료</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
                                         <li class="num">123</li>
                                         <li class="subject">
-                                            <a href="#">CROWISE 병리평가</a>
+                                            <a href="#">
+                                                제품견적***
+                                                <i class="icon-lock-filled">
+                                                    <span class="sr-only">비밀글</span>
+                                                </i>
+                                            </a>
                                         </li>
-                                        <li class="date">2017-04-01</li>
-                                        <li class="count">123</li>
+                                        <li class="u-name">홍길동</li>
+                                        <li class="reply">답변완료</li>
                                     </ul>
                                 </li>
                                 <li>
                                     <ul>
                                         <li class="num">123</li>
                                         <li class="subject">
-                                            <a href="#">CROWISE 당뇨 효력시험</a>
+                                            <a href="#">
+                                                궁금한 ***
+                                                <i class="icon-lock-filled">
+                                                    <span class="sr-only">비밀글</span>
+                                                </i>
+                                            </a>
                                         </li>
-                                        <li class="date">2017-04-01</li>
-                                        <li class="count">123</li>
+                                        <li class="u-name">홍길동</li>
+                                        <li class="reply">답변완료</li>
                                     </ul>
                                 </li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="btn-area">
+                        <p>
+                            <a href="#" class="btn btn-orange" role="button">등록하기</a>
+                        </p>
                     </div>
                     <nav class="paging" aria-label="Page navigation">
                         <ul class="pagination">
