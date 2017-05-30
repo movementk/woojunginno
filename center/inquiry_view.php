@@ -27,52 +27,60 @@
 	        </div>
             <div class="lnb dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    공지사항
+                    1:1문의하기
                     <i class="more-icon">
                         <span class="sr-only">더보기</span>
                     </i>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li class="active"><a href="/center/notice_list.php">공지사항</a></li>
+                    <li><a href="/center/notice_list.php">공지사항</a></li>
                     <li><a href="#">A/S현황조회</a></li>
                     <li><a href="#">검교정주기조회</a></li>
-                    <li><a href="#">1:1문의하기</a></li>
+                    <li class="active"><a href="#">1:1문의하기</a></li>
                     <li><a href="#">고객만족도평가</a></li>
                 </ul>
             </div>
 	    </div>
 	    <!-- //Page Header -->
-	    <section class="notice-view">
+	    <section class="inquiry-view">
             <div class="container">
                 <div class="section-header">
-                    <h3 class="page-title">공지사항</h3>
+                    <h3 class="page-title">1:1문의하기</h3>
                     <p class="summary">
-                        우정BSC의 새로운 소식 및 공지사항을<br class="visible-xs">
-                        알려드립니다.
+                        궁금하신 사항이 있으시다면 문의해주세요!<br>
+                        빠르고 친절하게 답변드리겠습니다.
                     </p>
                 </div>
                 <div class="section-content">
                     <div class="reaction-view">
-                        <h4 class="title">공고합병 및 주권제출공고</h4>
+                        <h4 class="title">제품견적관련 문의드립니다.</h4>
                         <div class="content">
                             <ul class="list-info">
-                                <li>2017-04-04</li>
                                 <li>
-                                    <dl>
-                                        <dt>조회수</dt>
-                                        <dd>356</dd>
-                                    </dl>
+                                    <i class="icon-user">
+                                        <span class="sr-only">작성자</span>
+                                    </i>
+                                    홍길동
+                                </li>
+                                <li>
+                                    <i class="icon-phone">
+                                        <span class="sr-only">전화번호</span>
+                                    </i>
+                                    010-1234-5678
+                                </li>
+                                <li>
+                                    <i class="icon-mail-alt">
+                                        <span class="sr-only">E-mail</span>
+                                    </i>
+                                    mk_manager@mkdesign.co.kr
                                 </li>
                             </ul>
                             <div class="view-content">
                                 <p>
-                                    한화엠지아이기업인수목적 주식회사(갑)는 2017년 3월 7일 개최한 임시 주주총회에서<br>
-                                    주식회사 우정비에스씨(을)은 2017년 3월 7일 개최한 임시 주주총회에서 각각 합병을 결의하고 그 결과로<br>
-                                    (갑)은 (을)을 합병하여 그 권리의무를 승계하고, (갑)은 존속하며 (을)은 해산하기로 결의하였으므로,<br>
-                                    이 합병에 대하여 이의가 있는 채권자는 이 공고일 익일부터 1개월 이내에 관계회사에<br>
-                                    이의를 제출하시고 주권을 가지고 있는 분은 관계회사에 주권을 제출하여 주시기 바라와 이에 공고 합니다.
+                                    1:1문의와 관련된 내용이 노출되는 영역입니다.제품 견적관련 문의드립니다. 1:1문의와 관련된 내용이 노출되는 영역입니다.<br>
+                                    1:1문의와 관련된 내용이 노출되는 영역입니다.
                                 </p>
-                                <img src="/assets/images/center/notice_view_img.jpg" class="img-responsive" alt="합병 및 주권제출공고">
+                                <img src="/assets/images/center/inquiry_view_img.jpg" class="img-responsive" alt="">
                                 <dl class="attach">
                                     <dt class="sr-only">첨부파일</dt>
                                     <dd>
@@ -82,29 +90,29 @@
                             </div>
                         </div>
                     </div>
-                    <ul class="next-link">
-                        <li>
-                            <dl>
-                                <dt>다음글</dt>
-                                <dd>
-                                    <a href="#">다음글이 없습니다.</a>
-                                </dd>
-                            </dl>
-                        </li>
-                        <li>
-                            <dl>
-                                <dt>이전글</dt>
-                                <dd>
-                                    <a href="#">[2017.02.17] 합병승인 임시주주총회 소집통지 공고 </a>
-                                </dd>
-                            </dl>
-                        </li>
-                    </ul>
+                    <div class="reply">
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-5 col-lg-3">
+                                <h5 class="logo">
+                                    <img src="/assets/images/center/logo_foot.jpg" class="img-responsive" alt="우정비에스씨 로고">
+                                </h5>
+                            </div>
+                            <div class="col-xs-12 col-sm-7 col-lg-9">
+                                <p class="adm-reply">
+                                    안녕하세요, 무브먼트케이 고객님!<br>
+                                    저희 우정비에스씨 제품을 이용해주셔서 매우 감사드립니다.<br>
+                                    문의주신 사항은 우정 콜센터 (1588-1588)로 문의
+                                    주시면 상세히 답변 드리겠습니다.<br>
+                                    감사합니다.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="btn-area">
                     <p>
-                        <a href="#" class="btn btn-gray" role="button">삭제하기</a>
-                        <a href="#" class="btn btn-gray" role="button">수정하기</a>
+                        <a href="#" class="btn btn-gray" role="button">삭제</a>
+                        <a href="#" class="btn btn-gray" role="button">수정</a>
                         <a href="#" class="btn btn-orange" role="button">목록으로</a>
                     </p>
                 </div>
