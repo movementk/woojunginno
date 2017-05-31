@@ -314,7 +314,8 @@ button {
   .article-header .content-title {
     font-size: 20px;
     color: #2b2b2b;
-    font-weight: 300; }
+    font-weight: 300;
+    line-height: 30px; }
     @media (min-width: 768px) {
       .article-header .content-title {
         font-size: 30px; } }
@@ -386,7 +387,7 @@ button {
         font-weight: 300;
         text-align: center;
         line-height: 43px; }
-        .nav-tabs > ul > li a:hover {
+        .nav-tabs > ul > li a:hover, .nav-tabs > ul > li a:focus {
           text-decoration: none; }
         @media (min-width: 768px) {
           .nav-tabs > ul > li a {
@@ -518,6 +519,15 @@ button {
       .table-wrap .table.table-bordered tbody tr td:last-child {
         border-right: 0; }
 
+.table-responsive .table thead tr th {
+  white-space: nowrap; }
+.table-responsive .table thead tr td {
+  white-space: nowrap; }
+.table-responsive .table tbody tr th {
+  white-space: nowrap; }
+.table-responsive .table tbody tr td {
+  white-space: nowrap; }
+
 .decimal-list .list-title {
   width: 300px;
   margin: 0 auto;
@@ -545,6 +555,7 @@ button {
   @media (min-width: 768px) {
     .decimal-list .decimal-li {
       width: 100%;
+      margin-bottom: 0;
       padding-top: 30px;
       padding-bottom: 30px; } }
   @media (min-width: 1280px) {
