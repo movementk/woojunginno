@@ -19,9 +19,9 @@
                         <img src="/assets/images/sub/left_link_btn.png" alt="이전 페이지">
                         <span class="sr-only">이전 페이지</span>
                     </a>
-                    <a href="#" class="btn-link next-btn" role="button">
+                    <a href="/center/satisfy.php" class="btn-link next-btn" role="button">
                         <img src="/assets/images/sub/right_link_btn.png" alt="다음 페이지">
-                        <span class="sr-only">이전 페이지</span>
+                        <span class="sr-only">다음 페이지</span>
                     </a>
                 </div>
 	        </div>
@@ -34,10 +34,10 @@
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li><a href="/center/notice_list.php">공지사항</a></li>
-                    <li><a href="#">A/S현황조회</a></li>
+                    <li><a href="/center/as_search.php">A/S현황조회</a></li>
                     <li><a href="#">검교정주기조회</a></li>
-                    <li class="active"><a href="#">1:1문의하기</a></li>
-                    <li><a href="#">고객만족도평가</a></li>
+                    <li class="active"><a href="/center/inquiry_list.php">1:1문의하기</a></li>
+                    <li><a href="/center/satisfy.php">고객만족도평가</a></li>
                 </ul>
             </div>
 	    </div>

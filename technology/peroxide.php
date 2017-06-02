@@ -15,13 +15,13 @@
                 <h2 class="hidden-xs">SERVICE</h2>
                 <p>기술서비스 상품</p>
                 <div class="btn-link-area">
-                    <a href="#" class="btn-link pre-btn" role="button">
+                    <a href="/technology/maintenance.php" class="btn-link pre-btn" role="button">
                         <img src="/assets/images/sub/left_link_btn.png" alt="이전 페이지">
                         <span class="sr-only">이전 페이지</span>
                     </a>
-                    <a href="#" class="btn-link next-btn" role="button">
+                    <a href="/technology/calibration.php" class="btn-link next-btn" role="button">
                         <img src="/assets/images/sub/right_link_btn.png" alt="다음 페이지">
-                        <span class="sr-only">이전 페이지</span>
+                        <span class="sr-only">다음 페이지</span>
                     </a>
                 </div>
 	        </div>
@@ -35,8 +35,8 @@
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li><a href="/technology/maintenance.php">유지보수 서비스</a></li>
                     <li class="active"><a href="/technology/peroxide.php">과산화수소멸균 서비스</a></li>
-                    <li><a href="#">장비검교정 서비스</a></li>
-                    <li><a href="#">우정특성화 서비스</a></li>
+                    <li><a href="/technology/calibration.php">장비검교정 서비스</a></li>
+                    <li><a href="/technology/organism.php">우정특성화 서비스</a></li>
                 </ul>
             </div>
 	    </div>
@@ -193,8 +193,8 @@
                         </div>
                     </article>
                 </div>
-                <div class="container">
-                    <article class="dual-circuit">
+                <article class="dual-circuit">
+                    <div class="container">
                         <div class="article-header">
                             <h4 class="content-title">Dual Circuit Tecnology란?</h4>
                             <hr>
@@ -214,7 +214,9 @@
                                 </h2>
                             </div>
                         </div>
-                    </article>
+                    </div>
+                </article>
+                <div class="container">
                     <div class="table-wrap table-responsive">
                         <h6>H<sup>2</sup>O<sup>2</sup> 증기와 에어로졸(가습기 타입), 이산화염소 가스와의 차이점</h6>
                         <table class="table table-bordered">

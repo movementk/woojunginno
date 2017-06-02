@@ -20,7 +20,7 @@
                     </a>
                     <a href="#" class="btn-link next-btn" role="button">
                         <img src="/assets/images/sub/right_link_btn.png" alt="다음 페이지">
-                        <span class="sr-only">이전 페이지</span>
+                        <span class="sr-only">다음 페이지</span>
                     </a>
                 </div>
 	        </div>

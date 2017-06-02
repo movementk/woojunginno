@@ -15,13 +15,13 @@
                 <h2 class="hidden-xs">SERVICE</h2>
                 <p>기술서비스 상품</p>
                 <div class="btn-link-area">
-                    <a href="#" class="btn-link pre-btn" role="button">
+                    <a href="/technology/organism.php" class="btn-link pre-btn" role="button">
                         <img src="/assets/images/sub/left_link_btn.png" alt="이전 페이지">
                         <span class="sr-only">이전 페이지</span>
                     </a>
-                    <a href="#" class="btn-link next-btn" role="button">
+                    <a href="/technology/peroxide.php" class="btn-link next-btn" role="button">
                         <img src="/assets/images/sub/right_link_btn.png" alt="다음 페이지">
-                        <span class="sr-only">이전 페이지</span>
+                        <span class="sr-only">다음 페이지</span>
                     </a>
                 </div>
 	        </div>
@@ -34,9 +34,9 @@
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li class="active"><a href="/technology/maintenance.php">유지보수 서비스</a></li>
-                    <li><a href="#">과산화수소멸균 서비스</a></li>
-                    <li><a href="#">장비검교정 서비스</a></li>
-                    <li><a href="#">우정특성화 서비스</a></li>
+                    <li><a href="/technology/peroxide.php">과산화수소멸균 서비스</a></li>
+                    <li><a href="/technology/calibration.php">장비검교정 서비스</a></li>
+                    <li><a href="/technology/organism.php">우정특성화 서비스</a></li>
                 </ul>
             </div>
 	    </div>
