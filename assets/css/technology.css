@@ -638,4 +638,115 @@ address {
     .film-build .section-content article.pvc-film {
       padding-bottom: 110px; } }
 
+.built-in .section-content .service {
+  padding-bottom: 50px; }
+  @media (min-width: 768px) {
+    .built-in .section-content .service {
+      padding-bottom: 80px; } }
+  @media (min-width: 768px) {
+    .built-in .section-content .service {
+      padding-bottom: 110px; } }
+  .built-in .section-content .service .article-content .service-list {
+    padding-bottom: 135px;
+    background-image: url(/assets/images/technology/compare_bg.png);
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-size: 260px auto; }
+    @media (min-width: 768px) {
+      .built-in .section-content .service .article-content .service-list {
+        padding-bottom: 188px;
+        background-size: 326px auto; } }
+    @media (min-width: 768px) {
+      .built-in .section-content .service .article-content .service-list {
+        padding-bottom: 185px; } }
+    .built-in .section-content .service .article-content .service-list > ul > li:last-child .researcher {
+      margin-bottom: 0; }
+    .built-in .section-content .service .article-content .service-list > ul > li .researcher {
+      width: 300px;
+      font-size: 0;
+      margin: 0 auto;
+      margin-bottom: 10px;
+      padding: 10px 10px 10px 0;
+      border: 1px solid #ccc; }
+      @media (min-width: 768px) {
+        .built-in .section-content .service .article-content .service-list > ul > li .researcher {
+          margin-bottom: 0;
+          width: 228px;
+          padding: 30px 15px 15px; } }
+      @media (min-width: 1280px) {
+        .built-in .section-content .service .article-content .service-list > ul > li .researcher {
+          width: 370px;
+          padding: 50px 25px 25px; } }
+      .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box {
+        display: table-cell;
+        vertical-align: middle; }
+        @media (min-width: 768px) {
+          .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box {
+            display: block; } }
+        .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figure {
+          width: 90px;
+          height: 66px;
+          line-height: 66px;
+          text-align: center;
+          vertical-align: middle; }
+          @media (min-width: 768px) {
+            .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figure {
+              width: 100%;
+              height: 120px;
+              line-height: 120px; } }
+          @media (min-width: 1280px) {
+            .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figure {
+              height: 136px;
+              line-height: 136px; } }
+          .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figure img {
+            display: inline-block;
+            width: 46px; }
+            @media (min-width: 768px) {
+              .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figure img {
+                width: 83px; } }
+            @media (min-width: 1280px) {
+              .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figure img {
+                width: 95px; } }
+        .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figcaption {
+          display: block;
+          width: 90px;
+          font-size: 13px;
+          text-align: center;
+          margin-top: 10px; }
+          @media (min-width: 768px) {
+            .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figcaption {
+              width: 100%;
+              font-size: 15px;
+              margin-top: 15px;
+              margin-bottom: 20px; } }
+          @media (min-width: 1280px) {
+            .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figcaption {
+              font-size: 17px;
+              margin-top: 20px;
+              margin-bottom: 25px; } }
+          .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figcaption.bl-txt {
+            color: #444da1; }
+          .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figcaption.or-txt {
+            color: #f08501; }
+          .built-in .section-content .service .article-content .service-list > ul > li .researcher .fig-box .figcaption.gr-txt {
+            color: #595757; }
+      .built-in .section-content .service .article-content .service-list > ul > li .researcher .summary {
+        display: table-cell;
+        width: 210px;
+        height: 120px;
+        font-size: 13px;
+        color: #fff;
+        line-height: 24px;
+        text-align: center;
+        vertical-align: middle;
+        border-radius: 8px; }
+        @media (min-width: 768px) {
+          .built-in .section-content .service .article-content .service-list > ul > li .researcher .summary {
+            width: 196px;
+            font-size: 14px; } }
+        @media (min-width: 1280px) {
+          .built-in .section-content .service .article-content .service-list > ul > li .researcher .summary {
+            width: 318px;
+            border: 1px solid #ccc; } }
+
 /*# sourceMappingURL=technology.css.map */

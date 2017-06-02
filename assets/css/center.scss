@@ -25,13 +25,27 @@
                 margin-bottom: 30px;
             }
         }
-        .paging {
-            margin-top: 25px;
+        .btn-area {
+            margin-top: 40px;
             @media(min-width: $sm) {
-                margin-top: 60px;
+                text-align: right;
+            }
+            p {
+                .btn-orange {
+                    width: 300px;
+                    @media(min-width: $sm) {
+                        width: 170px;
+                    }
+                }
+            }
+        }
+        .paging {
+            margin-top: 40px;
+            @media(min-width: $sm) {
+                margin-top: 35px;
             }
             @media(min-width: $lg) {
-                margin-top: 70px;
+                margin-top: 40px;
             }
         }
     }
@@ -461,7 +475,7 @@
 }
 
 // 1:1 문의 글쓰기
-.inquiry-write {
+.write {
     .section-content {
         .table-wrap {
             .table-write {
