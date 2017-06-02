@@ -42,14 +42,24 @@ address {
   @media (min-width: 992px) {
     .notice-list .section-content .search-form {
       margin-bottom: 30px; } }
+.notice-list .section-content .btn-area {
+  margin-top: 40px; }
+  @media (min-width: 768px) {
+    .notice-list .section-content .btn-area {
+      text-align: right; } }
+  .notice-list .section-content .btn-area p .btn-orange {
+    width: 300px; }
+    @media (min-width: 768px) {
+      .notice-list .section-content .btn-area p .btn-orange {
+        width: 170px; } }
 .notice-list .section-content .paging {
-  margin-top: 25px; }
+  margin-top: 40px; }
   @media (min-width: 768px) {
     .notice-list .section-content .paging {
-      margin-top: 60px; } }
+      margin-top: 35px; } }
   @media (min-width: 1280px) {
     .notice-list .section-content .paging {
-      margin-top: 70px; } }
+      margin-top: 40px; } }
 
 .notice-view .section-content .next-link {
   border-top: 1px solid #595757;
@@ -359,28 +369,28 @@ address {
       .inquiry-view .btn-area p .btn-orange {
         width: 170px; } }
 
-.inquiry-write .section-content .table-wrap .table-write tbody tr th {
+.write .section-content .table-wrap .table-write tbody tr th {
   width: 30%; }
   @media (min-width: 768px) {
-    .inquiry-write .section-content .table-wrap .table-write tbody tr th {
+    .write .section-content .table-wrap .table-write tbody tr th {
       width: 24%; } }
-  .inquiry-write .section-content .table-wrap .table-write tbody tr th.content {
+  .write .section-content .table-wrap .table-write tbody tr th.content {
     padding-top: 23px;
     vertical-align: top; }
-.inquiry-write .section-content .table-wrap .table-write tbody tr td {
+.write .section-content .table-wrap .table-write tbody tr td {
   width: 70%; }
   @media (min-width: 768px) {
-    .inquiry-write .section-content .table-wrap .table-write tbody tr td {
+    .write .section-content .table-wrap .table-write tbody tr td {
       width: 76%; } }
   @media (min-width: 1280px) {
-    .inquiry-write .section-content .table-wrap .table-write tbody tr td {
+    .write .section-content .table-wrap .table-write tbody tr td {
       padding-right: 30px; } }
-  .inquiry-write .section-content .table-wrap .table-write tbody tr td.file .form-group {
+  .write .section-content .table-wrap .table-write tbody tr td.file .form-group {
     position: relative;
     padding-right: 74px; }
-    .inquiry-write .section-content .table-wrap .table-write tbody tr td.file .form-group .form-control {
+    .write .section-content .table-wrap .table-write tbody tr td.file .form-group .form-control {
       width: 100%; }
-    .inquiry-write .section-content .table-wrap .table-write tbody tr td.file .form-group label {
+    .write .section-content .table-wrap .table-write tbody tr td.file .form-group label {
       position: absolute;
       top: 0;
       right: 0;
@@ -391,41 +401,41 @@ address {
       line-height: 40px;
       text-align: center;
       background-color: #aeaeaf; }
-      .inquiry-write .section-content .table-wrap .table-write tbody tr td.file .form-group label:hover {
+      .write .section-content .table-wrap .table-write tbody tr td.file .form-group label:hover {
         cursor: pointer; }
     @media (min-width: 768px) {
-      .inquiry-write .section-content .table-wrap .table-write tbody tr td.file .form-group {
+      .write .section-content .table-wrap .table-write tbody tr td.file .form-group {
         padding-right: 156px; }
-        .inquiry-write .section-content .table-wrap .table-write tbody tr td.file .form-group label {
+        .write .section-content .table-wrap .table-write tbody tr td.file .form-group label {
           width: 136px;
           font-size: 15px; } }
   @media (min-width: 768px) {
-    .inquiry-write .section-content .table-wrap .table-write tbody tr td.subject .form-group .form-control {
+    .write .section-content .table-wrap .table-write tbody tr td.subject .form-group .form-control {
       width: 100%; } }
-  .inquiry-write .section-content .table-wrap .table-write tbody tr td .form-group textarea {
+  .write .section-content .table-wrap .table-write tbody tr td .form-group textarea {
     height: 285px; }
     @media (min-width: 768px) {
-      .inquiry-write .section-content .table-wrap .table-write tbody tr td .form-group textarea {
+      .write .section-content .table-wrap .table-write tbody tr td .form-group textarea {
         width: 100%;
         height: 255px; } }
-.inquiry-write .section-content .btn-area {
+.write .section-content .btn-area {
   margin-top: 30px; }
-  .inquiry-write .section-content .btn-area p .btn {
+  .write .section-content .btn-area p .btn {
     width: 145px;
     margin: 0; }
-    .inquiry-write .section-content .btn-area p .btn:first-child {
+    .write .section-content .btn-area p .btn:first-child {
       margin-right: 10px; }
       @media (min-width: 768px) {
-        .inquiry-write .section-content .btn-area p .btn:first-child {
+        .write .section-content .btn-area p .btn:first-child {
           margin-right: 30px; } }
     @media (min-width: 768px) {
-      .inquiry-write .section-content .btn-area p .btn {
+      .write .section-content .btn-area p .btn {
         width: 170px; } }
   @media (min-width: 768px) {
-    .inquiry-write .section-content .btn-area {
+    .write .section-content .btn-area {
       margin-top: 50px; } }
   @media (min-width: 1280px) {
-    .inquiry-write .section-content .btn-area {
+    .write .section-content .btn-area {
       margin-top: 60px; } }
 
 .pw-confirm .section-content {
