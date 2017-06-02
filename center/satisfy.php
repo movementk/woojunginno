@@ -15,13 +15,13 @@
                 <h2 class="hidden-xs">CALL CENTER</h2>
                 <p>우정콜센터</p>
                 <div class="btn-link-area">
-                    <a href="#" class="btn-link pre-btn" role="button">
+                    <a href="/center/inquiry_list.php" class="btn-link pre-btn" role="button">
                         <img src="/assets/images/sub/left_link_btn.png" alt="이전 페이지">
                         <span class="sr-only">이전 페이지</span>
                     </a>
-                    <a href="#" class="btn-link next-btn" role="button">
+                    <a href="/center/notice_list.php" class="btn-link next-btn" role="button">
                         <img src="/assets/images/sub/right_link_btn.png" alt="다음 페이지">
-                        <span class="sr-only">이전 페이지</span>
+                        <span class="sr-only">다음 페이지</span>
                     </a>
                 </div>
 	        </div>
@@ -36,8 +36,8 @@
                     <li><a href="/center/notice_list.php">공지사항</a></li>
                     <li><a href="/center/as_search.php">A/S현황조회</a></li>
                     <li><a href="#">검교정주기조회</a></li>
-                    <li><a href="#">1:1문의하기</a></li>
-                    <li class="active"><a href="#">고객만족도평가</a></li>
+                    <li><a href="/center/inquiry_list.php">1:1문의하기</a></li>
+                    <li class="active"><a href="/center/satisfy.php">고객만족도평가</a></li>
                 </ul>
             </div>
 	    </div>

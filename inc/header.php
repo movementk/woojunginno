@@ -35,11 +35,11 @@
 						<li>
 							<a href="#">우정콜센터</a>
 							<ul>
-								<li><a href="#">공지사항<span></span></a></li>
-								<li><a href="#">A/S현황 조회<span></span></a></li>
+								<li><a href="/center/notice_list.php">공지사항<span></span></a></li>
+								<li><a href="/center/as_search.php">A/S현황 조회<span></span></a></li>
 								<li><a href="#">검교정주기 조회<span></span></a></li>
-								<li><a href="#">1:1 문의하기<span></span></a></li>
-								<li><a href="#">고객 만족도 평가<span></span></a></li>
+								<li><a href="/center/inquiry_list.php">1:1 문의하기<span></span></a></li>
+								<li><a href="/center/satisfy.php">고객 만족도 평가<span></span></a></li>
 							</ul>
 						</li>
 					</ul>
