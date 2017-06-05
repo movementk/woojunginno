@@ -131,6 +131,18 @@
       "css": "phone",
       "code": 59399,
       "src": "elusive"
+    },
+    {
+      "uid": "35674c31693db324f2fd6a48f1079263",
+      "css": "down-micro",
+      "code": 59400,
+      "src": "websymbols"
+    },
+    {
+      "uid": "fbed8311a5af2a8e5599246d9939a475",
+      "css": "up-micro",
+      "code": 59401,
+      "src": "websymbols"
     }
   ]
 }
