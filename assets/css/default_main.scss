@@ -1,5 +1,7 @@
 @import 'common';
 
+$lg: "1400px";
+
 html {
 	min-width: 320px;
 	height: 100%;
@@ -737,7 +739,39 @@ body.nav-opened {
 		padding-bottom: 25px;
 		.family {
 			margin-left: 0;
-			width: 170px;
 		}
+	}
+}
+
+@media (min-width: 1280px) {
+	.visible-lg {
+		display: none !important;
+	}
+	.hidden-lg {
+		display: block !important;
+	}
+}
+
+@media (min-width: 1280px) and (max-width: 1429px) {
+	#header {
+		.container {
+			.row {
+				> div:nth-of-type(1) {
+					width: 100%;
+				}
+			}
+		}
+	}
+}
+
+@media (min-width: 1430px) {
+	.visible-lg {
+		display: block !important;
+	}
+	.hidden-lg {
+		display: none !important;
+	}
+	.container {
+		width: 1400px;
 	}
 }

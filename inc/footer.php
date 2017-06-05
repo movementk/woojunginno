@@ -12,8 +12,12 @@
 					<dl>
 						<dt>TEL</dt>
 						<dd>031-888-9369</dd>
+					</dl>
+					<dl>
 						<dt>FAX</dt>
 						<dd>031-888-9368</dd>
+					</dl>
+					<dl>
 						<dt>E-mail</dt>
 						<dd><a href="mailto:wj@woojungbsc.co.kr" target="_blank">wj@woojungbsc.co.kr</a></dd>
 					</dl>
@@ -34,10 +38,10 @@
 							<span class="caret"></span>
 						</button>
 						<ul class="dropdown-menu">
-							<li><a href="#">Action</a></li>
-							<li><a href="#">Another action</a></li>
-							<li><a href="#">Something else here</a></li>
-							<li><a href="#">Separated link</a></li>
+							<li><a href="#">FAMILY SITE #1</a></li>
+							<li><a href="#">FAMILY SITE #2</a></li>
+							<li><a href="#">FAMILY SITE #3</a></li>
+							<li><a href="#">FAMILY SITE #4</a></li>
 						</ul>
 					</div>
 				</div>
