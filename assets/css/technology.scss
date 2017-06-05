@@ -906,15 +906,17 @@
                 @media(min-width: $lg) {
                     padding-bottom: 110px;
                 }
-                .article-content {
-                    
-                }
             }
         }
     }
 }
 
 // 빌트인 장비 이전 설치
+.built-in-info {
+    #content {
+        padding-bottom: 0;
+    }    
+}
 .built-in {
     .section-content {
         .service {
@@ -1043,6 +1045,46 @@
                                 }
                             }
                         }
+                    }
+                }
+                .attention {
+                    font-size: 16px;
+                    color: #333;
+                    text-align: center;
+                    line-height: 28px;
+                    font-weight: 300;
+                    padding-top: 20px;
+                    b {
+                        font-style: normal;
+                        color: #e10013;
+                        font-weight: 400;
+                    }
+                    @media(min-width: $sm) {
+                        font-size: 20px;
+                        line-height: 32px;
+                        padding-top: 30px;
+                    }
+                    @media (min-width: $lg) {
+                        font-size: 25px;
+                        line-height: 40px;
+                        padding-top: 60px;
+                    }
+                }
+            }
+        }
+        .renovation {
+            background-color: #f7f8f9;
+            padding-bottom: 50px;
+            @media(min-width: $sm) {
+                padding-bottom: 80px;
+            }
+            @media(min-width: $lg) {
+                padding-bottom: 110px;
+            }
+            .article-content {
+                .figure {
+                    .img-responsive {
+                        margin: 0 auto;
                     }
                 }
             }
