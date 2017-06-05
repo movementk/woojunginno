@@ -638,6 +638,9 @@ address {
     .film-build .section-content article.pvc-film {
       padding-bottom: 110px; } }
 
+.built-in-info #content {
+  padding-bottom: 0; }
+
 .built-in .section-content .service {
   padding-bottom: 50px; }
   @media (min-width: 768px) {
@@ -748,5 +751,37 @@ address {
           .built-in .section-content .service .article-content .service-list > ul > li .researcher .summary {
             width: 318px;
             border: 1px solid #ccc; } }
+  .built-in .section-content .service .article-content .attention {
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    line-height: 28px;
+    font-weight: 300;
+    padding-top: 20px; }
+    .built-in .section-content .service .article-content .attention b {
+      font-style: normal;
+      color: #e10013;
+      font-weight: 400; }
+    @media (min-width: 768px) {
+      .built-in .section-content .service .article-content .attention {
+        font-size: 20px;
+        line-height: 32px;
+        padding-top: 30px; } }
+    @media (min-width: 1280px) {
+      .built-in .section-content .service .article-content .attention {
+        font-size: 25px;
+        line-height: 40px;
+        padding-top: 60px; } }
+.built-in .section-content .renovation {
+  background-color: #f7f8f9;
+  padding-bottom: 50px; }
+  @media (min-width: 768px) {
+    .built-in .section-content .renovation {
+      padding-bottom: 80px; } }
+  @media (min-width: 1280px) {
+    .built-in .section-content .renovation {
+      padding-bottom: 110px; } }
+  .built-in .section-content .renovation .article-content .figure .img-responsive {
+    margin: 0 auto; }
 
 /*# sourceMappingURL=technology.css.map */

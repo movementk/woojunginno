@@ -1,0 +1,152 @@
+@import 'common';
+
+/* 이노서비스 lnb 공통 */
+.inno {
+    .lnb {
+        .dropdown-menu {
+            li {
+                @media(min-width: $lg) {
+                    width: 50%; 
+                }
+            }
+        }
+    }
+}
+
+// 홍보/영상
+.promotional-info {
+    #content {
+        padding-bottom: 0;
+    }
+}
+.promotional {
+    .section-content {
+        padding-bottom: 50px;
+        @media(min-width: $sm) {
+            padding-bottom: 80px;
+        }
+        @media(min-width: $lg) {
+            padding-bottom: 110px;
+        }
+        ul {
+            > li {
+                a {
+                    display: block;
+                    max-width: 352px;
+                    margin: 0 auto;
+                    text-align: center;
+                    margin-bottom: 40px;
+                    @media(min-width: $sm) {
+                        margin-bottom: 50px;
+                    }
+                    .figure {
+                        position: relative;
+                        width: 100%;
+                        .img-responsive {
+                            max-width: 352px;
+                            width: 100%;
+                            margin: 0 auto;
+                        }
+                        .hover-box {
+                            display: none;
+                            position: absolute;
+                            top: 0;
+                            left: 0;
+                            width: 100%;
+                            max-width: 352px;
+                            height: 100%;
+                            color: #fff;
+                            text-align: center;
+                            .play-icon {
+                                display: inline-block;
+                                width: 70px;
+                                height: 70px;
+                                position: relative;
+                                top: 50%;
+                                margin-top: -35px;
+                                background-image: url(/assets/images/inno/play_icon.png);
+                                background-repeat: no-repeat;
+                                background-position: 50% 50%;
+                            }
+                        }
+                    }
+                    .figcaption {
+                        padding-top: 25px;
+                        h4 {
+                            font-size: 14px;
+                            color: #2b2b2b;
+                            font-weight: 400;
+                            margin-bottom: 10px;
+                        }
+                        .date {
+                            font-size: 13px;
+                            color: #999;
+                            @include titi();
+                        }
+                        @media(min-width: $sm) {
+                            h4 {
+                                font-size: 16px;
+                                margin-bottom: 10px;
+                            }
+                        }
+                    }
+                    &:hover, &:focus {
+                        text-decoration: none;
+                        .hover-box {
+                            display: block;
+                            background-color: #f08501;
+//                            background-color: rgba(240, 133, 1, .7);
+                        }
+                    }
+                }
+            }
+        }
+        .btn-area {
+            margin-top: 20px;
+            p {
+                .btn-gray {
+                    width: 300px;
+                    height: 40px;
+                    line-height: 40px;
+                }
+            }
+            @media(min-width: $sm) {
+                margin-top: 30px;
+                p {
+                    .btn-gray {
+                        width: 230px;
+                    }
+                }
+            }
+        }
+    }
+    .engineer {
+        background-color: #f7f8f9;
+        padding-bottom: 50px;
+        @media(min-width: $sm) {
+            padding-bottom: 80px;
+        }
+        @media(min-width: $lg) {
+            padding-bottom: 110px;
+        }
+        .article-content {
+            text-align: center;
+        }
+    }
+}
+
+// 모달 
+.modal {
+    padding-top: 15%;
+    padding-right: 0 !important;
+    background-color: rgba(0, 0, 0, .6);
+    .modal-dialog {
+        .modal-content {
+            box-shadow: none;
+            border-radius: 0;
+            .modal-header {
+                border-bottom: 0;
+            }
+        }
+    }
+}

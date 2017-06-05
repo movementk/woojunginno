@@ -2,7 +2,7 @@
 <link href="/assets/css/sub.css" rel="stylesheet">
 <link href="/assets/css/technology.css" rel="stylesheet">
 </head>
-<body class="sub film-build-info">
+<body class="sub built-in-info">
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/top-nav.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/header.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/nav-aside.php'); ?>
@@ -114,10 +114,33 @@
                                     </li>
                                 </ul>
                             </div>
-                            <p class="attention"></p>
+                            <p class="attention">
+                                빌트인 장비의 이전 설치 뿐 만 아니라 장비<br class="visible-xs">
+                                내부의<br class="hidden-xs"> 노후된 배관, 밸브 또는 장비 전체의<br class="visible-xs">
+                                리노베이션까지 <b>고객님들의 요구와<br>
+                                예산에 맞추어 재탄생</b> 시켜드립니다!
+                            </p>
                         </div>
                     </article>
                 </div>
+                <article class="renovation">
+                    <div class="article-header">
+                        <h4 class="content-title">빌트인 장비 이전 및 리노베이션 과정</h4>
+                        <hr>
+                    </div>
+                    <div class="article-content">
+                        <p class="figure">
+                            <img src="/assets/images/technology/renovation_step_xs.png" class="img-responsive visible-xs" alt="리노베이션 이전 및 설치과정">
+                            <img src="/assets/images/technology/renovation_step_sm.png" class="img-responsive visible-sm visible-md" alt="리노베이션 이전 및 설치과정">
+                            <img src="/assets/images/technology/renovation_step_lg.png" class="img-responsive visible-lg" alt="리노베이션 이전 및 설치과정">
+                        </p>
+                        <ol class="figcaption sr-only">
+                            <li>01. 설계 및 준비</li>
+                            <li>02. 이전설치 및 리노베이션 작업</li>
+                            <li>03. 이전설치 및 리노베이션 완료</li>
+                        </ol>
+                    </div>
+                </article>
             </div>
 	    </section>
 	</main>
