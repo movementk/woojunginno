@@ -1,0 +1,222 @@
+@import 'common';
+
+.quotation {
+    .lnb {
+        .dropdown-menu {
+            li {
+                @media(min-width: $lg) {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+
+// RBDS 가능 일정보기
+.schedule {
+    .section-content {
+        .table-wrap {
+            position: relative;
+            .month {
+                font-size: 26px;
+                color: #595757;
+                text-align: center;
+                font-weight: bold;
+                line-height: 42px;
+                @include titi();
+                @media(min-width: $sm) {
+                    font-size: 42px;
+                    line-height: 45px;
+                }
+                @media(min-width: $lg) {
+                    font-size: 50px;
+                    line-height: 55px;
+                }
+            }
+            .month-link {
+                position: absolute;
+                top: 0;
+                width: 100%;
+                overflow: hidden;
+                @media(min-width: $sm) {
+                    line-height: 45px;
+                }
+                @media(min-width: $lg) {
+                    line-height: 55px;
+                }
+                a {
+                    display: inline-block;
+                    color: #aeaeaf;
+                    > p {
+                        display: inline-block;
+                        font-size: 14px;
+                        font-weight: 400;
+                        vertical-align: middle;
+                    }
+                    &.pre-btn {
+                        float: left;
+                        &:before {
+                            content: "\E809";
+                            font-size: 30px;
+                            font-family: "fontello";
+                            @media(min-width: $sm) {
+                                margin-right: 15px;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                    &.next-btn {
+                        float: right;
+                        &:after {
+                            content: "\E80A";
+                            font-size: 30px;
+                            font-family: "fontello";
+                            @media(min-width: $sm) {
+                                margin-left: 15px;
+                                vertical-align: middle;
+                            }
+                        }
+                    }
+                    &:hover, &:focus {
+                        text-decoration: none;
+                        color: #e10316;
+                    }
+                }
+            }
+            .table-calendar {
+                margin-top: 20px;
+                @media(min-width: $sm) {
+                    margin-top: 40px;
+                }
+                thead {
+                    tr {
+                        th {
+                            font-size: 13px;
+                            color: #333;
+                            font-weight: bold;
+                            @include titi();
+                            padding: 20px 0;
+                            border: 0;
+                            border-bottom: 1px solid #b7b7b7;
+                            background-color: #fff;
+                            @media(min-width: $sm) {
+                                font-size: 15px;
+                            }
+                        }
+                    }
+                }
+                tbody {
+                    /*
+                        past: 오늘 이전의 모든 날들
+                        today: 오늘
+                        available: 예약가능
+                        impossible: 예약불가능
+                    */
+                    tr {
+                        td {
+                            position: relative;
+                            padding: 10px 3px;
+                            text-align: left;
+                            vertical-align: top;
+                            height: 85px;
+                            .day {
+                                font-weight: bold;
+                                display: block;
+                                font-size: 12px;
+                                color: #b5b6b6;
+                                @include titi();
+                                padding-left: 2px;
+                                margin-bottom: 5px;
+                            }
+                            .anniversary {
+                                display: block;
+                                position: relative;
+                                font-size: 10px;
+                                color: #666;
+                                line-height: 15px;
+                                font-weight: 300;
+                                padding-left: 7px;
+                                &:before {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    content: "·";
+                                }
+                            }
+                            &.past {
+                                background-color: #f7f7f7;
+                            }
+                            &.impossible {
+                                background-color: #f7f7f7;
+                            }
+                            &.available {
+                                .day {
+                                    color: #555;
+                                }
+//                                &:hover, &:focus {
+//                                    cursor: pointer;
+//                                }
+                            }
+                            &.today {
+                                background-color: #fff;
+                                .day {
+                                    color: #555;
+                                }
+                                &:before {
+                                    position: absolute;
+                                    top: 0;
+                                    left: 0;
+                                    display: block;
+                                    content: " ";
+                                    width: 100%;
+                                    height: 100%;
+                                    border: 1px solid #f08501;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            .square-list {
+                text-align: right;
+                font-size: 0;
+                margin-top: 20px;
+                li {
+                    display: inline-block;
+                    margin-right: 20px;
+                    font-size: 11px;
+                    color: #666;
+                    &:before {
+                        display: inline-block;
+                        width: 13px;
+                        height: 13px;
+                        content: " ";
+                        margin-right: 5px;
+                        border: 1px solid #ef4600;
+                        vertical-align: middle;
+                        margin-top: -2px;
+                    }
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                    &.today {
+                        &:before {
+                            border-color: #ef4600;
+                        }
+                    }
+                    &.available {
+                        &:before {
+                            border-color: #ccc;
+                        }
+                    }
+                    &.impossible {
+                        &:before {
+                            border-color: #dfdfdf;
+                            background-color: #dfdfdf;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
