@@ -18,7 +18,7 @@
 					<div class="intro-item intro-item-1" style="background-image: url(/assets/images/main/img_intro_1.jpg);">
 						<div class="intro-content">
 							<div class="intro-body">
-                                <h3>OPEN <br class="visible-xs">INNOVATION #1</h3>
+                                <h3>OPEN <br class="visible-xs">INNOVATION</h3>
                                 <p>
                                     끊임없는 노력과 새로운 시도로 국내 생명과학<br class="hidden-xs">
                                     발전은 물론 연구현장의 안전을 넘어서 사람이 안심하고<br class="hidden-xs">
@@ -38,7 +38,7 @@
 					<div class="intro-item intro-item-2" style="background-image: url(/assets/images/main/img_intro_2.jpg);">
 						<div class="intro-content">
 							<div class="intro-body">
-                                <h3>OPEN <br class="visible-xs">INNOVATION #2</h3>
+                                <h3>OPEN <br class="visible-xs">INNOVATION</h3>
                                 <p>
                                     끊임없는 노력과 새로운 시도로 국내 생명과학<br class="hidden-xs">
                                     발전은 물론 연구현장의 안전을 넘어서 사람이 안심하고<br class="hidden-xs">
@@ -58,7 +58,7 @@
 					<div class="intro-item intro-item-3" style="background-image: url(/assets/images/main/img_intro_3.jpg);">
 						<div class="intro-content">
 							<div class="intro-body">
-                                <h3>OPEN <br class="visible-xs">INNOVATION #3</h3>
+                                <h3>OPEN <br class="visible-xs">INNOVATION</h3>
                                 <p>
                                     끊임없는 노력과 새로운 시도로 국내 생명과학<br class="hidden-xs">
                                     발전은 물론 연구현장의 안전을 넘어서 사람이 안심하고<br class="hidden-xs">
@@ -75,30 +75,10 @@
 							</div>
 						</div>
 					</div>
-					<div class="intro-item intro-item-4" style="background-image: url(/assets/images/main/img_intro_4.jpg);">
+					<div class="intro-item intro-item-4" style="background-image: url(/assets/images/main/img_intro_5.jpg);">
 						<div class="intro-content">
 							<div class="intro-body">
-                                <h3>OPEN <br class="visible-xs">INNOVATION #4</h3>
-                                <p>
-                                    끊임없는 노력과 새로운 시도로 국내 생명과학<br class="hidden-xs">
-                                    발전은 물론 연구현장의 안전을 넘어서 사람이 안심하고<br class="hidden-xs">
-                                    살아가는 환경을 만드는 기업, 우정비에스씨
-                                </p>
-                            </div>
-                            <div class="intro-outline">
-                                <div>
-                                    <div class="top"></div>
-                                    <div class="right"></div>
-                                    <div class="bottom"></div>
-                                    <div class="left"></div>
-                                </div>
-							</div>
-						</div>
-					</div>
-					<div class="intro-item intro-item-5" style="background-image: url(/assets/images/main/img_intro_5.jpg);">
-						<div class="intro-content">
-							<div class="intro-body">
-                                <h3>OPEN <br class="visible-xs">INNOVATION #5</h3>
+                                <h3>OPEN <br class="visible-xs">INNOVATION</h3>
                                 <p>
                                     끊임없는 노력과 새로운 시도로 국내 생명과학<br class="hidden-xs">
                                     발전은 물론 연구현장의 안전을 넘어서 사람이 안심하고<br class="hidden-xs">
@@ -141,19 +121,19 @@
 							<li>
 								<a href="#">
 									<i></i>
-									<p>유지보수</p>
+									<p>과산화수소멸균</p>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<i></i>
-									<p>유지보수</p>
+									<p>장비검교정</p>
 								</a>
 							</li>
 							<li>
 								<a href="#">
 									<i></i>
-									<p>유지보수</p>
+									<p>우정특성화</p>
 								</a>
 							</li>
 						</ul>
@@ -206,48 +186,7 @@
 		
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
 	<script src="/assets/jquery.bxslider/jquery.bxslider.min.js"></script>
-	<script>
-		(function($) {
-			$('#introduce .intro-slider').bxSlider({
-				mode: 'fade',
-				controls: false,
-				auto: true,
-				autoControls: true,
-				autoControlsCombine: true,
-				autoHover: true,
-				pause: 6000,
-				buildPager: function(slideIndex) {
-					return "<span class='sr-only'>"+slideIndex+"</span>";
-				},
-				onSliderLoad: function(currentIndex) {
-					window.setTimeout(function() {
-						$('#introduce .intro-slider .intro-item').eq(currentIndex).addClass('active');
-					}, 1000);
-				},
-				onSlideAfter: function($slideElement, oldIndex, newIndex) {
-					$('#introduce .intro-slider .intro-item').removeClass('active');
-					$slideElement.addClass('active');
-				}
-			});
-
-			$('#news .news-list ul').bxSlider({
-				mode: "vertical",
-				pager: false,
-				auto: true,
-				autoHover: true,
-				prevText: "<i class='icon-up-micro'></i>",
-				nextText: "<i class='icon-down-micro'></i>",
-			});
-
-			$('#products .product-list ul').bxSlider({
-				pager: false,
-				auto: true,
-				autoHover: true,
-				prevText: "<i class='icon-left-open-big'></i>",
-				nextText: "<i class='icon-right-open-big'></i>",
-			});	
-		})(jQuery);
-	</script>
+	<script src="/assets/js/main.js"></script>
 	
 </body>
 </html>
