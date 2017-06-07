@@ -133,27 +133,45 @@
       "src": "elusive"
     },
     {
-      "uid": "35674c31693db324f2fd6a48f1079263",
-      "css": "down-micro",
+      "uid": "7acc2dfe18c6f4548626696fab27ba8a",
+      "css": "play-circled2",
       "code": 59400,
-      "src": "websymbols"
-    },
-    {
-      "uid": "fbed8311a5af2a8e5599246d9939a475",
-      "css": "up-micro",
-      "code": 59401,
-      "src": "websymbols"
+      "src": "elusive"
     },
     {
       "uid": "884cfc3e6e2d456dd2a2ca0dbb9e6337",
       "css": "left-open-big",
-      "code": 59402,
+      "code": 59401,
       "src": "entypo"
     },
     {
       "uid": "004882ab2d5c418c5b2060e80596279b",
       "css": "right-open-big",
+      "code": 59402,
+      "src": "entypo"
+    },
+    {
+      "uid": "35674c31693db324f2fd6a48f1079263",
+      "css": "down-micro",
       "code": 59403,
+      "src": "websymbols"
+    },
+    {
+      "uid": "fbed8311a5af2a8e5599246d9939a475",
+      "css": "up-micro",
+      "code": 59406,
+      "src": "websymbols"
+    },
+    {
+      "uid": "cb13afd4722a849d48056540bb74c47e",
+      "css": "play",
+      "code": 59407,
+      "src": "entypo"
+    },
+    {
+      "uid": "d8d378d0ce413f231dfa37592e39c227",
+      "css": "pause",
+      "code": 59408,
       "src": "entypo"
     }
   ]
