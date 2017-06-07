@@ -123,6 +123,13 @@ address {
         text-align: left;
         vertical-align: top;
         height: 85px; }
+        @media (min-width: 768px) {
+          .schedule .section-content .table-wrap .table-calendar tbody tr td {
+            height: 120px;
+            padding: 20px 10px 0 10px; } }
+        @media (min-width: 1280px) {
+          .schedule .section-content .table-wrap .table-calendar tbody tr td {
+            padding: 20px 20px 0; } }
         .schedule .section-content .table-wrap .table-calendar tbody tr td .day {
           font-weight: bold;
           display: block;
@@ -131,6 +138,10 @@ address {
           font-family: 'Titillium Web', sans-serif;
           padding-left: 2px;
           margin-bottom: 5px; }
+          @media (min-width: 768px) {
+            .schedule .section-content .table-wrap .table-calendar tbody tr td .day {
+              font-size: 14px;
+              margin-bottom: 10px; } }
         .schedule .section-content .table-wrap .table-calendar tbody tr td .anniversary {
           display: block;
           position: relative;
@@ -144,6 +155,10 @@ address {
             top: 0;
             left: 0;
             content: "·"; }
+          @media (min-width: 768px) {
+            .schedule .section-content .table-wrap .table-calendar tbody tr td .anniversary {
+              font-size: 12px;
+              line-height: 18px; } }
         .schedule .section-content .table-wrap .table-calendar tbody tr td.past {
           background-color: #f7f7f7; }
         .schedule .section-content .table-wrap .table-calendar tbody tr td.impossible {
@@ -167,11 +182,17 @@ address {
     text-align: right;
     font-size: 0;
     margin-top: 20px; }
+    @media (min-width: 768px) {
+      .schedule .section-content .table-wrap .square-list {
+        margin-top: 30px; } }
     .schedule .section-content .table-wrap .square-list li {
       display: inline-block;
       margin-right: 20px;
       font-size: 11px;
       color: #666; }
+      @media (min-width: 768px) {
+        .schedule .section-content .table-wrap .square-list li {
+          font-size: 12px; } }
       .schedule .section-content .table-wrap .square-list li:before {
         display: inline-block;
         width: 13px;
