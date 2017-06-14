@@ -15,11 +15,11 @@
                 <h2 class="hidden-xs">CALL CENTER</h2>
                 <p>우정콜센터</p>
                 <div class="btn-link-area">
-                    <a href="/center/notice_list.php" class="btn-link pre-btn" role="button">
+                    <a href="/center/as_search.php" class="btn-link pre-btn" role="button">
                         <img src="/assets/images/sub/left_link_btn.png" alt="이전 페이지">
                         <span class="sr-only">이전 페이지</span>
                     </a>
-                    <a href="/center/sterilizer_inquiry.php" class="btn-link next-btn" role="button">
+                    <a href="/center/inquiry_list.php" class="btn-link next-btn" role="button">
                         <img src="/assets/images/sub/right_link_btn.png" alt="다음 페이지">
                         <span class="sr-only">다음 페이지</span>
                     </a>
@@ -27,46 +27,50 @@
 	        </div>
             <div class="lnb dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    A/S 현황조회
+                    검교정주기조회
                     <i class="more-icon">
                         <span class="sr-only">더보기</span>
                     </i>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li><a href="/center/notice_list.php">공지사항</a></li>
-                    <li class="active"><a href="/center/as_search.php">A/S현황조회</a></li>
-                    <li><a href="#">검교정주기조회</a></li>
+                    <li><a href="/center/as_search.php">A/S현황조회</a></li>
+                    <li class="active"><a href="/center/sterilizer_inquiry.php">검교정주기조회</a></li>
                     <li><a href="/center/inquiry_list.php">1:1문의하기</a></li>
                     <li><a href="/center/satisfy.php">고객만족도평가</a></li>
                 </ul>
             </div>
 	    </div>
 	    <!-- //Page Header -->
-	    <section class="as-search">
+	    <section class="sterilizer sterilizer-inquiry as-search">
             <div class="container">
                 <div class="section-header">
-                    <h3 class="page-title">A/S 현황조회</h3>
+                    <h3 class="page-title">과산화수소증기 멸균기<br class="visible-xs"> 검교정 주기 조회</h3>
                     <p class="summary">
-                        (주)우정비에스씨 이노서비스는 장비 판매에서<br>
-                        더 나아가 A/S까지도 책임지는 서비스를<br class="visible-xs">
-                        제공하겠습니다.
+                        과산화수소증기 멸균기의 유지보수와 안전한<br class="visible-xs"> 사용을 위해 1년에 한번의<br class="visible-sm"> 검교정을 추천하고 있습니다.<br>
+                        현재 보유하고 계신 장비의 현황과 검교정 예정일을<br class="visible-xs"> 안내드리오니,<br class="visible-sm"> 진행여부 결정하신 후<br class="visible-xs"> 희망 검교정<br class="hidden-xs">
+                        예정일 6주 전에 문의주시면<br class="visible-xs"> 안내 드리도록 하겠습니다.
                     </p>
                 </div>
                 <div class="section-content">
                     <p class="summary">
-                        이메일로 받으신 A/S번호를 입력하여<br>
-                        A/S현황을 조회하실 수 있습니다.
+                        소속명과 이메일 주소를 입력하여<br>
+                        과산화수소멸균기의 검교정주기를 조회하실 수 있습니다.
                     </p>
                     <div class="confirm">
                         <form action="#">
                             <div class="form-group">
-                                <label for="u-pw" class="sr-only">비밀번호 확인</label>
-                                <input type="password" id="u-pw" class="form-control">
+                                <label for="affiliation" class="sr-only">소속명</label>
+                                <input type="text" id="affiliation" class="form-control" placeholder="소속명">
+                            </div>
+                            <div class="form-group">
+                                <label for="e-mail" class="sr-only">E-mail 주소</label>
+                                <input type="email" id="e-mail" class="form-control" placeholder="E-mail 주소">
                             </div>
                             <div class="btn-area">
                                 <p>
                                     <button type="submit" class="btn btn-orange">
-                                        A/S현황 조회하기
+                                        검교정주기 조회하기
                                     </button>
                                 </p>
                             </div>

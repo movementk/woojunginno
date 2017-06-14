@@ -15,11 +15,11 @@
                 <h2 class="hidden-xs">INQUIRY</h2>
                 <p>견적문의</p>
                 <div class="btn-link-area">
-                    <a href="#" class="btn-link pre-btn" role="button">
+                    <a href="/quotation/quote_write.php" class="btn-link pre-btn" role="button">
                         <img src="/assets/images/sub/left_link_btn.png" alt="이전 페이지">
                         <span class="sr-only">이전 페이지</span>
                     </a>
-                    <a href="#" class="btn-link next-btn" role="button">
+                    <a href="/quotation/quote_write.php" class="btn-link next-btn" role="button">
                         <img src="/assets/images/sub/right_link_btn.png" alt="다음 페이지">
                         <span class="sr-only">다음 페이지</span>
                     </a>
@@ -33,8 +33,8 @@
                     </i>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="/technology/maintenance.php">사업비전</a></li>
-                    <li class="active"><a href="/technology/peroxide.php">RBDS 가능 일정보기</a></li>
+                    <li><a href="/quotation/quote_inquiry.php">기술서비스 견적문의</a></li>
+                    <li class="active"><a href="/quotation/schedule.php">RBDS 가능 일정보기</a></li>
                 </ul>
             </div>
 	    </div>
@@ -68,15 +68,6 @@
                                 impossible: 예약불가능
                         -->
                         <table class="table table-bordered table-calendar">
-                            <colgroup>
-                                <col style="width: 14.28%">
-                                <col style="width: 14.28%">
-                                <col style="width: 14.28%">
-                                <col style="width: 14.28%">
-                                <col style="width: 14.28%">
-                                <col style="width: 14.28%">
-                                <col style="width: 14.28%">
-                            </colgroup>
                             <thead>
                                 <tr>
                                     <th>SUN</th>
