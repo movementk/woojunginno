@@ -13,23 +13,23 @@
 							<a href="#">이노서비스</a>
 							<ul>
 								<li><a href="#">사업비전<span></span></a></li>
-								<li><a href="#">홍보/영상<span></span></a></li>
+								<li><a href="/inno/promotional.php">홍보/영상<span></span></a></li>
 							</ul>
 						</li>
 						<li>
 							<a href="#">기술서비스상품</a>
 							<ul>
-								<li><a href="#">유지보수 서비스<span></span></a></li>
-								<li><a href="#">과산화수소멸균 서비스<span></span></a></li>
-								<li><a href="#">장비검교정 서비스<span></span></a></li>
-								<li><a href="#">우정특성화 서비스<span></span></a></li>
+								<li><a href="/technology/maintenance.php">유지보수 서비스<span></span></a></li>
+								<li><a href="/technology/peroxide.php">과산화수소멸균 서비스<span></span></a></li>
+								<li><a href="/technology/calibration.php">장비검교정 서비스<span></span></a></li>
+								<li><a href="/technology/organism.php">우정특성화 서비스<span></span></a></li>
 							</ul>
 						</li>
 						<li>
 							<a href="#">견적문의</a>
 							<ul>
-								<li><a href="#">기술서비스 견적문의<span></span></a></li>
-								<li><a href="#">RBDS가능 알아보기<span></span></a></li>
+								<li><a href="/quotation/quote_write.php">기술서비스 견적문의<span></span></a></li>
+								<li><a href="/quotation/schedule.php">RBDS가능 알아보기<span></span></a></li>
 							</ul>
 						</li>
 						<li>
@@ -37,7 +37,7 @@
 							<ul>
 								<li><a href="/center/notice_list.php">공지사항<span></span></a></li>
 								<li><a href="/center/as_search.php">A/S현황 조회<span></span></a></li>
-								<li><a href="#">검교정주기 조회<span></span></a></li>
+								<li><a href="/center/sterilizer_inquiry.php">검교정주기 조회<span></span></a></li>
 								<li><a href="/center/inquiry_list.php">1:1 문의하기<span></span></a></li>
 								<li><a href="/center/satisfy.php">고객 만족도 평가<span></span></a></li>
 							</ul>

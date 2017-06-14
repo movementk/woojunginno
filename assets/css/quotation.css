@@ -94,11 +94,13 @@ address {
         text-decoration: none;
         color: #e10316; }
   .schedule .section-content .table-wrap .table-calendar {
+    table-layout: fixed;
     margin-top: 20px; }
     @media (min-width: 768px) {
       .schedule .section-content .table-wrap .table-calendar {
         margin-top: 40px; } }
     .schedule .section-content .table-wrap .table-calendar thead tr th {
+      width: 20%;
       font-size: 13px;
       color: #333;
       font-weight: bold;
@@ -109,7 +111,18 @@ address {
       background-color: #fff; }
       @media (min-width: 768px) {
         .schedule .section-content .table-wrap .table-calendar thead tr th {
+          width: 14.28%;
           font-size: 15px; } }
+      .schedule .section-content .table-wrap .table-calendar thead tr th:first-child {
+        display: none; }
+        @media (min-width: 768px) {
+          .schedule .section-content .table-wrap .table-calendar thead tr th:first-child {
+            display: table-cell; } }
+      .schedule .section-content .table-wrap .table-calendar thead tr th:last-child {
+        display: none; }
+        @media (min-width: 768px) {
+          .schedule .section-content .table-wrap .table-calendar thead tr th:last-child {
+            display: table-cell; } }
     .schedule .section-content .table-wrap .table-calendar tbody {
       /*
           past: 오늘 이전의 모든 날들
@@ -118,18 +131,31 @@ address {
           impossible: 예약불가능
       */ }
       .schedule .section-content .table-wrap .table-calendar tbody tr td {
-        position: relative;
         padding: 10px 3px;
         text-align: left;
         vertical-align: top;
-        height: 85px; }
+        width: 20%;
+        height: 102px;
+        background-color: #fff;
+        background-clip: padding-box; }
         @media (min-width: 768px) {
           .schedule .section-content .table-wrap .table-calendar tbody tr td {
+            width: 14.28%;
             height: 120px;
             padding: 20px 10px 0 10px; } }
         @media (min-width: 1280px) {
           .schedule .section-content .table-wrap .table-calendar tbody tr td {
             padding: 20px 20px 0; } }
+        .schedule .section-content .table-wrap .table-calendar tbody tr td:first-child {
+          display: none; }
+          @media (min-width: 768px) {
+            .schedule .section-content .table-wrap .table-calendar tbody tr td:first-child {
+              display: table-cell; } }
+        .schedule .section-content .table-wrap .table-calendar tbody tr td:last-child {
+          display: none; }
+          @media (min-width: 768px) {
+            .schedule .section-content .table-wrap .table-calendar tbody tr td:last-child {
+              display: table-cell; } }
         .schedule .section-content .table-wrap .table-calendar tbody tr td .day {
           font-weight: bold;
           display: block;
@@ -166,8 +192,9 @@ address {
         .schedule .section-content .table-wrap .table-calendar tbody tr td.available .day {
           color: #555; }
         .schedule .section-content .table-wrap .table-calendar tbody tr td.today {
-          background-color: #fff; }
+          position: relative; }
           .schedule .section-content .table-wrap .table-calendar tbody tr td.today .day {
+            display: block;
             color: #555; }
           .schedule .section-content .table-wrap .table-calendar tbody tr td.today:before {
             position: absolute;
@@ -176,8 +203,11 @@ address {
             display: block;
             content: " ";
             width: 100%;
-            height: 100%;
+            height: 101px;
             border: 1px solid #f08501; }
+            @media (min-width: 768px) {
+              .schedule .section-content .table-wrap .table-calendar tbody tr td.today:before {
+                height: 119px; } }
   .schedule .section-content .table-wrap .square-list {
     text-align: right;
     font-size: 0;
@@ -211,5 +241,223 @@ address {
       .schedule .section-content .table-wrap .square-list li.impossible:before {
         border-color: #dfdfdf;
         background-color: #dfdfdf; }
+
+.write .section-header .page-title {
+  line-height: 36px; }
+.write .section-content .table-wrap .table-write tbody tr th {
+  width: 30%; }
+  @media (min-width: 768px) {
+    .write .section-content .table-wrap .table-write tbody tr th {
+      width: 24%; } }
+  .write .section-content .table-wrap .table-write tbody tr th.content {
+    padding-top: 23px;
+    vertical-align: top; }
+  .write .section-content .table-wrap .table-write tbody tr th.area {
+    padding-top: 23px;
+    vertical-align: top; }
+    @media (min-width: 1280px) {
+      .write .section-content .table-wrap .table-write tbody tr th.area {
+        padding-top: 0;
+        vertical-align: middle; } }
+.write .section-content .table-wrap .table-write tbody tr td {
+  width: 70%; }
+  @media (min-width: 768px) {
+    .write .section-content .table-wrap .table-write tbody tr td {
+      width: 76%; } }
+  @media (min-width: 1280px) {
+    .write .section-content .table-wrap .table-write tbody tr td {
+      padding-right: 30px; } }
+  .write .section-content .table-wrap .table-write tbody tr td.file .form-group {
+    position: relative;
+    padding-right: 74px; }
+    .write .section-content .table-wrap .table-write tbody tr td.file .form-group .form-control {
+      width: 100%; }
+    .write .section-content .table-wrap .table-write tbody tr td.file .form-group label {
+      position: absolute;
+      top: 0;
+      right: 0;
+      width: 64px;
+      height: 40px;
+      font-size: 13px;
+      color: #fff;
+      line-height: 40px;
+      text-align: center;
+      background-color: #aeaeaf; }
+      .write .section-content .table-wrap .table-write tbody tr td.file .form-group label:hover {
+        cursor: pointer; }
+    @media (min-width: 768px) {
+      .write .section-content .table-wrap .table-write tbody tr td.file .form-group {
+        padding-right: 156px; }
+        .write .section-content .table-wrap .table-write tbody tr td.file .form-group label {
+          width: 136px;
+          font-size: 15px; } }
+  @media (min-width: 768px) {
+    .write .section-content .table-wrap .table-write tbody tr td.subject .form-group .form-control {
+      width: 100%; } }
+  .write .section-content .table-wrap .table-write tbody tr td.hope-area .form-group {
+    overflow: hidden;
+    display: block;
+    width: 100%;
+    vertical-align: middle;
+    margin-bottom: 10px; }
+    .write .section-content .table-wrap .table-write tbody tr td.hope-area .form-group:last-child {
+      margin-right: 0; }
+    @media (min-width: 1280px) {
+      .write .section-content .table-wrap .table-write tbody tr td.hope-area .form-group:nth-of-type(2) {
+        width: 220px; }
+        .write .section-content .table-wrap .table-write tbody tr td.hope-area .form-group:nth-of-type(2) label {
+          width: 80px; } }
+    @media (min-width: 1280px) {
+      .write .section-content .table-wrap .table-write tbody tr td.hope-area .form-group {
+        width: 200px;
+        display: inline-block;
+        margin-right: 50px;
+        margin-bottom: 0; } }
+    .write .section-content .table-wrap .table-write tbody tr td.hope-area .form-group label {
+      float: left;
+      width: 35%;
+      height: 40px;
+      font-size: 14px;
+      color: #333;
+      line-height: 40px;
+      opacity: .5; }
+      @media (min-width: 768px) {
+        .write .section-content .table-wrap .table-write tbody tr td.hope-area .form-group label {
+          width: 80px;
+          font-size: 15px; } }
+      @media (min-width: 1280px) {
+        .write .section-content .table-wrap .table-write tbody tr td.hope-area .form-group label {
+          width: 60px; } }
+    .write .section-content .table-wrap .table-write tbody tr td.hope-area .form-group .form-control {
+      float: left;
+      width: 65%; }
+      @media (min-width: 768px) {
+        .write .section-content .table-wrap .table-write tbody tr td.hope-area .form-group .form-control {
+          width: 270px; } }
+      @media (min-width: 1280px) {
+        .write .section-content .table-wrap .table-write tbody tr td.hope-area .form-group .form-control {
+          width: 140px; } }
+  .write .section-content .table-wrap .table-write tbody tr td .form-group textarea {
+    height: 285px; }
+    @media (min-width: 768px) {
+      .write .section-content .table-wrap .table-write tbody tr td .form-group textarea {
+        width: 100%;
+        height: 255px; } }
+.write .section-content .btn-area {
+  margin-top: 30px; }
+  .write .section-content .btn-area p .btn {
+    width: 145px;
+    margin: 0; }
+    .write .section-content .btn-area p .btn:first-child {
+      margin-right: 10px; }
+      @media (min-width: 768px) {
+        .write .section-content .btn-area p .btn:first-child {
+          margin-right: 30px; } }
+    @media (min-width: 768px) {
+      .write .section-content .btn-area p .btn {
+        width: 170px; } }
+  @media (min-width: 768px) {
+    .write .section-content .btn-area {
+      margin-top: 50px; } }
+  @media (min-width: 1280px) {
+    .write .section-content .btn-area {
+      margin-top: 60px; } }
+
+.quote-list .section-header .page-title {
+  line-height: 36px; }
+.quote-list .section-content .search-form {
+  margin-bottom: 30px; }
+  @media (min-width: 768px) {
+    .quote-list .section-content .search-form {
+      margin-bottom: 50px; } }
+  @media (min-width: 992px) {
+    .quote-list .section-content .search-form {
+      margin-bottom: 30px; } }
+.quote-list .section-content .btn-area {
+  margin-top: 40px; }
+  @media (min-width: 768px) {
+    .quote-list .section-content .btn-area {
+      text-align: right; } }
+  .quote-list .section-content .btn-area p .btn-orange {
+    width: 300px; }
+    @media (min-width: 768px) {
+      .quote-list .section-content .btn-area p .btn-orange {
+        width: 170px; } }
+.quote-list .section-content .paging {
+  margin-top: 40px; }
+  @media (min-width: 768px) {
+    .quote-list .section-content .paging {
+      margin-top: 35px; } }
+  @media (min-width: 1280px) {
+    .quote-list .section-content .paging {
+      margin-top: 40px; } }
+
+.quote-view .section-header .page-title {
+  line-height: 36px; }
+.quote-view .section-content .reaction-view .content {
+  overflow: hidden; }
+  .quote-view .section-content .reaction-view .content:after {
+    content: " ";
+    display: inline-block;
+    clear: both; }
+  .quote-view .section-content .reaction-view .content .list-info {
+    float: right;
+    text-align: left; }
+    .quote-view .section-content .reaction-view .content .list-info li {
+      display: inline-block; }
+      .quote-view .section-content .reaction-view .content .list-info li:last-child {
+        margin-top: 10px;
+        display: block; }
+        @media (min-width: 768px) {
+          .quote-view .section-content .reaction-view .content .list-info li:last-child {
+            display: inline-block;
+            margin-top: 0; }
+            .quote-view .section-content .reaction-view .content .list-info li:last-child:before {
+              display: inline-block;
+              content: "|";
+              font-size: 10px;
+              color: #cbcbcb;
+              padding: 0 10px;
+              vertical-align: top;
+              margin-top: 1px; } }
+      .quote-view .section-content .reaction-view .content .list-info li i {
+        font-size: 13px;
+        margin-right: 5px; }
+  .quote-view .section-content .reaction-view .content .view-content {
+    clear: both; }
+.quote-view .reply {
+  border-top: 1px solid #595757;
+  border-bottom: 1px solid #595757; }
+  @media (min-width: 768px) {
+    .quote-view .reply {
+      padding: 40px 0; } }
+  .quote-view .reply .logo {
+    padding: 30px 0;
+    text-align: left; }
+    .quote-view .reply .logo .img-responsive {
+      display: inline-block; }
+    @media (min-width: 768px) {
+      .quote-view .reply .logo {
+        text-align: center;
+        padding: 0; } }
+  .quote-view .reply .adm-reply {
+    font-size: 13px;
+    color: #555;
+    line-height: 22px;
+    font-weight: 300;
+    padding-bottom: 30px; }
+    @media (min-width: 768px) {
+      .quote-view .reply .adm-reply {
+        padding: 0;
+        font-size: 15px;
+        line-height: 28px;
+        padding-right: 30px; } }
+.quote-view .btn-area {
+  margin-top: 40px; }
+  @media (min-width: 768px) {
+    .quote-view .btn-area {
+      text-align: right; }
+      .quote-view .btn-area p .btn-orange {
+        width: 170px; } }
 
 /*# sourceMappingURL=quotation.css.map */

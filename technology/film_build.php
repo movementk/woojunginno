@@ -140,7 +140,28 @@
                             <hr>
                         </div>
                         <div class="article-content">
-                            컨텐츠 내용 이미지 없음
+                            <figure>
+                                <img src="/assets/images/technology/pvc_img_xs.png" class="img-responsive visible-xs" alt="">
+                                <img src="/assets/images/technology/pvc_img_sm.png" class="img-responsive visible-sm" alt="">
+                                <img src="/assets/images/technology/pvc_img_lg.png" class="img-responsive visible-md visible-lg" alt="">
+                                <figcaption class="sr-only">
+                                    <ol>
+                                        <li>01. 손상된 도장 표면</li>
+                                        <li>02. 판넬 실리콘 제거</li>
+                                        <li>03. 벽면 부착물 제거</li>
+                                        <li>04. 내화학성 필름 부착</li>
+                                        <li>05. 판넬 실리콘 도포</li>
+                                        <li>06. 시공완료</li>
+                                    </ol>
+                                </figcaption>
+                            </figure>
+                            <div class="attention">
+                                <p>고가의 벽면 부착물을 따로 취급하므로 걱정하지 않으셔도 됩니다.</p>
+                                <dl>
+                                    <dt>클린룸 시공시</dt>
+                                    <dd>바이오 전용 사용</dd>
+                                </dl>
+                            </div>
                         </div>
                     </div>
                 </article>
