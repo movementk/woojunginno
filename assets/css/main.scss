@@ -298,7 +298,6 @@ $lg: "1430px";
 		text-decoration: none;
 		background-color: #fff;
 		text-align: center;
-		@include trans();
 		i {
 			display: block;
 			margin: 0 auto;
@@ -321,6 +320,12 @@ $lg: "1430px";
 			font-size: 12px;
 			line-height: 18px;
 			font-weight: 300;
+		}
+		&:hover, &:focus {
+			h4 {
+				color: $kcolor;
+				@include trans();
+			}
 		}
 	}
 	@media (min-width: $sm) {
@@ -347,6 +352,15 @@ $lg: "1430px";
 		width: 300px;
 		a {
 			background-color: rgba(#fff, .95);
+			&:hover, &:focus {
+				z-index: 1;
+				position: relative;
+				-ms-transform: scale(1.05);
+    			-webkit-transform: scale(1.05);
+				transform: scale(1.05);
+				background-color: #fff;
+				@include trans();
+			}
 		}
 	}
 }
@@ -381,11 +395,8 @@ $lg: "1430px";
 							i {
 								display: block;
 								margin: 0 auto;
-								width: 50px;
 								height: 54px;
-								background-image: url(/assets/images/main/ico_beaker.png);
 								background-repeat: no-repeat;
-								background-size: cover;
 								background-position: 50% 50%;
 							}
 							p {
@@ -393,6 +404,30 @@ $lg: "1430px";
 								color: #fff;
 								font-size: 13px;
 								font-weight: 300;
+							}
+							&.product-item-1 {
+								i {
+									background-image: url(/assets/images/main/ico_beaker.png);
+									background-size: auto 54px;
+								}
+							}
+							&.product-item-2 {
+								i {
+									background-image: url(/assets/images/main/ico_waterdrop.png);
+									background-size: auto 54px;
+								}
+							}
+							&.product-item-3 {
+								i {
+									background-image: url(/assets/images/main/ico_tools.png);
+									background-size: auto 49px;
+								}
+							}
+							&.product-item-4 {
+								i {
+									background-image: url(/assets/images/main/ico_monitor.png);
+									background-size: auto 54px;
+								}
 							}
 						}
 					}
@@ -432,12 +467,31 @@ $lg: "1430px";
 								padding-top: 85px;
 								height: 230px;
 								i {
-									width: 65px;
 									height: 70px;
 								}
 								p {
 									margin-top: 25px;
 									font-size: 15px;
+								}
+								&.product-item-1 {
+									i {
+										background-size: auto 70px;
+									}
+								}
+								&.product-item-2 {
+									i {
+										background-size: auto 70px;
+									}
+								}
+								&.product-item-3 {
+									i {
+										background-size: auto 63px;
+									}
+								}
+								&.product-item-4 {
+									i {
+										background-size: auto 70px;
+									}
 								}
 							}
 						}
@@ -513,6 +567,16 @@ $lg: "1430px";
 	@media (min-width: $lg) {
 		margin-left: 300px;
 		width: 600px;
+		> a {
+			&:hover, &:focus {
+				z-index: 1;
+				position: relative;
+				-ms-transform: scale(1.05);
+    			-webkit-transform: scale(1.05);
+				transform: scale(1.05);
+				@include trans();
+			}
+		}
 	}
 }
 
@@ -574,6 +638,16 @@ $lg: "1430px";
 	@media (min-width: $lg) {
 		margin-left: -900px;
 		width: 300px;
+		a {
+			&:hover, &:focus {
+				z-index: 1;
+				position: relative;
+				-ms-transform: scale(1.05);
+    			-webkit-transform: scale(1.05);
+				transform: scale(1.05);
+				@include trans();
+			}
+		}
 	}
 }
 
@@ -589,7 +663,6 @@ $lg: "1430px";
 		text-decoration: none;
 		background-color: #fff;
 		text-align: center;
-		@include trans();
 		i {
 			display: block;
 			margin: 0 auto;
@@ -636,6 +709,15 @@ $lg: "1430px";
 		width: 300px;
 		a {
 			background-color: rgba(#fff, .95);
+			&:hover, &:focus {
+				z-index: 1;
+				position: relative;
+				-ms-transform: scale(1.05);
+    			-webkit-transform: scale(1.05);
+				transform: scale(1.05);
+				@include trans();
+				background-color: #fff;
+			}
 		}
 	}
 }

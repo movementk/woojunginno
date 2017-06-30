@@ -75,26 +75,6 @@
 							</div>
 						</div>
 					</div>
-					<div class="intro-item intro-item-4" style="background-image: url(/assets/images/main/img_intro_5.jpg);">
-						<div class="intro-content">
-							<div class="intro-body">
-                                <h3>OPEN <br class="visible-xs">INNOVATION</h3>
-                                <p>
-                                    끊임없는 노력과 새로운 시도로 국내 생명과학<br class="hidden-xs">
-                                    발전은 물론 연구현장의 안전을 넘어서 사람이 안심하고<br class="hidden-xs">
-                                    살아가는 환경을 만드는 기업, 우정비에스씨
-                                </p>
-                            </div>
-                            <div class="intro-outline">
-                                <div>
-                                    <div class="top"></div>
-                                    <div class="right"></div>
-                                    <div class="bottom"></div>
-                                    <div class="left"></div>
-                                </div>
-							</div>
-						</div>
-					</div>
 				</div>
 			</section>
 			
@@ -119,19 +99,19 @@
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a class="product-item product-item-2" href="#">
 									<i></i>
 									<p>과산화수소멸균</p>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a class="product-item product-item-3" href="#">
 									<i></i>
 									<p>장비검교정</p>
 								</a>
 							</li>
 							<li>
-								<a href="#">
+								<a class="product-item product-item-4" href="#">
 									<i></i>
 									<p>우정특성화</p>
 								</a>
