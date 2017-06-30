@@ -254,15 +254,7 @@ address {
     height: 100%;
     text-decoration: none;
     background-color: #fff;
-    text-align: center;
-    -webkit-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.15s;
-    transition-duration: 0.15s;
-    -webkit-transition-timing-function: linear;
-    transition-timing-function: linear;
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s; }
+    text-align: center; }
     #schedule a i {
       display: block;
       margin: 0 auto;
@@ -283,6 +275,16 @@ address {
       font-size: 12px;
       line-height: 18px;
       font-weight: 300; }
+    #schedule a:hover h4, #schedule a:focus h4 {
+      color: #e40009;
+      -webkit-transition-property: all;
+      transition-property: all;
+      -webkit-transition-duration: 0.15s;
+      transition-duration: 0.15s;
+      -webkit-transition-timing-function: linear;
+      transition-timing-function: linear;
+      -webkit-transition-delay: 0s;
+      transition-delay: 0s; }
   @media (min-width: 768px) {
     #schedule {
       width: 50%;
@@ -303,7 +305,22 @@ address {
       margin-left: 600px;
       width: 300px; }
       #schedule a {
-        background-color: rgba(255, 255, 255, 0.95); } }
+        background-color: rgba(255, 255, 255, 0.95); }
+        #schedule a:hover, #schedule a:focus {
+          z-index: 1;
+          position: relative;
+          -ms-transform: scale(1.05);
+          -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+          background-color: #fff;
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s; } }
 
 #products {
   position: relative;
@@ -329,17 +346,26 @@ address {
     #products .product-list .bx-wrapper .bx-viewport ul li a i {
       display: block;
       margin: 0 auto;
-      width: 50px;
       height: 54px;
-      background-image: url(/assets/images/main/ico_beaker.png);
       background-repeat: no-repeat;
-      background-size: cover;
       background-position: 50% 50%; }
     #products .product-list .bx-wrapper .bx-viewport ul li a p {
       margin-top: 15px;
       color: #fff;
       font-size: 13px;
       font-weight: 300; }
+    #products .product-list .bx-wrapper .bx-viewport ul li a.product-item-1 i {
+      background-image: url(/assets/images/main/ico_beaker.png);
+      background-size: auto 54px; }
+    #products .product-list .bx-wrapper .bx-viewport ul li a.product-item-2 i {
+      background-image: url(/assets/images/main/ico_waterdrop.png);
+      background-size: auto 54px; }
+    #products .product-list .bx-wrapper .bx-viewport ul li a.product-item-3 i {
+      background-image: url(/assets/images/main/ico_tools.png);
+      background-size: auto 49px; }
+    #products .product-list .bx-wrapper .bx-viewport ul li a.product-item-4 i {
+      background-image: url(/assets/images/main/ico_monitor.png);
+      background-size: auto 54px; }
   #products .product-list .bx-wrapper .bx-controls .bx-controls-direction a {
     position: absolute;
     color: rgba(255, 255, 255, 0.8);
@@ -360,11 +386,18 @@ address {
         padding-top: 85px;
         height: 230px; }
         #products .product-list .bx-wrapper .bx-viewport ul li a i {
-          width: 65px;
           height: 70px; }
         #products .product-list .bx-wrapper .bx-viewport ul li a p {
           margin-top: 25px;
           font-size: 15px; }
+        #products .product-list .bx-wrapper .bx-viewport ul li a.product-item-1 i {
+          background-size: auto 70px; }
+        #products .product-list .bx-wrapper .bx-viewport ul li a.product-item-2 i {
+          background-size: auto 70px; }
+        #products .product-list .bx-wrapper .bx-viewport ul li a.product-item-3 i {
+          background-size: auto 63px; }
+        #products .product-list .bx-wrapper .bx-viewport ul li a.product-item-4 i {
+          background-size: auto 70px; }
       #products .product-list .bx-wrapper .bx-controls .bx-controls-direction a {
         top: 110px;
         font-size: 30px; }
@@ -415,7 +448,21 @@ address {
   @media (min-width: 1430px) {
     #pr-video {
       margin-left: 300px;
-      width: 600px; } }
+      width: 600px; }
+      #pr-video > a:hover, #pr-video > a:focus {
+        z-index: 1;
+        position: relative;
+        -ms-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; } }
 
 #as {
   float: left;
@@ -474,7 +521,21 @@ address {
   @media (min-width: 1430px) {
     #as {
       margin-left: -900px;
-      width: 300px; } }
+      width: 300px; }
+      #as a:hover, #as a:focus {
+        z-index: 1;
+        position: relative;
+        -ms-transform: scale(1.05);
+        -webkit-transform: scale(1.05);
+        transform: scale(1.05);
+        -webkit-transition-property: all;
+        transition-property: all;
+        -webkit-transition-duration: 0.15s;
+        transition-duration: 0.15s;
+        -webkit-transition-timing-function: linear;
+        transition-timing-function: linear;
+        -webkit-transition-delay: 0s;
+        transition-delay: 0s; } }
 
 #estimate {
   float: left;
@@ -487,15 +548,7 @@ address {
     height: 100%;
     text-decoration: none;
     background-color: #fff;
-    text-align: center;
-    -webkit-transition-property: all;
-    transition-property: all;
-    -webkit-transition-duration: 0.15s;
-    transition-duration: 0.15s;
-    -webkit-transition-timing-function: linear;
-    transition-timing-function: linear;
-    -webkit-transition-delay: 0s;
-    transition-delay: 0s; }
+    text-align: center; }
     #estimate a i {
       display: block;
       margin: 0 auto;
@@ -534,7 +587,22 @@ address {
     #estimate {
       width: 300px; }
       #estimate a {
-        background-color: rgba(255, 255, 255, 0.95); } }
+        background-color: rgba(255, 255, 255, 0.95); }
+        #estimate a:hover, #estimate a:focus {
+          z-index: 1;
+          position: relative;
+          -ms-transform: scale(1.05);
+          -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+          -webkit-transition-property: all;
+          transition-property: all;
+          -webkit-transition-duration: 0.15s;
+          transition-duration: 0.15s;
+          -webkit-transition-timing-function: linear;
+          transition-timing-function: linear;
+          -webkit-transition-delay: 0s;
+          transition-delay: 0s;
+          background-color: #fff; } }
 
 #news {
   overflow: hidden;
