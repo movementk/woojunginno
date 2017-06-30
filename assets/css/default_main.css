@@ -475,6 +475,9 @@ a {
       #top-nav .affiliates ul li a:hover, #top-nav .affiliates ul li a:focus {
         color: #333;
         background-color: #fff; }
+      #top-nav .affiliates ul li a.active {
+        color: #333;
+        background-color: #fff; }
   #top-nav .quick {
     margin-top: 13px;
     text-align: right; }
@@ -500,8 +503,10 @@ a {
           transition-timing-function: linear;
           -webkit-transition-delay: 0s;
           transition-delay: 0s; }
-          #top-nav .quick ul li a:hover, #top-nav .quick ul li a:focus {
+          #top-nav .quick ul li a.as {
             background-color: #ef4600; }
+          #top-nav .quick ul li a:hover, #top-nav .quick ul li a:focus {
+            opacity: .75; }
         #top-nav .quick ul li + li a {
           margin-left: 15px; }
 
