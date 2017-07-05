@@ -628,6 +628,14 @@ address {
         margin-bottom: 0; } }
   .film-build .section-content article.panel .article-content > ul > li:last-child figure {
     margin-bottom: 0; }
+@media (min-width: 768px) {
+  .film-build .section-content article.chemistry {
+    padding-bottom: 80px; } }
+@media (min-width: 1280px) {
+  .film-build .section-content article.chemistry {
+    padding-bottom: 110px; } }
+.film-build .section-content article.chemistry .article-header .summary {
+  font-weight: 400; }
 .film-build .section-content article.pvc-film {
   padding-bottom: 50px;
   background-color: #f7f8f9; }

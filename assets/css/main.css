@@ -275,16 +275,6 @@ address {
       font-size: 12px;
       line-height: 18px;
       font-weight: 300; }
-    #schedule a:hover h4, #schedule a:focus h4 {
-      color: #e40009;
-      -webkit-transition-property: all;
-      transition-property: all;
-      -webkit-transition-duration: 0.15s;
-      transition-duration: 0.15s;
-      -webkit-transition-timing-function: linear;
-      transition-timing-function: linear;
-      -webkit-transition-delay: 0s;
-      transition-delay: 0s; }
   @media (min-width: 768px) {
     #schedule {
       width: 50%;

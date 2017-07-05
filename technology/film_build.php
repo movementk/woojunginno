@@ -113,7 +113,7 @@
                         </div>
                     </div>
                 </article>
-                <article>
+                <article class="chemistry">
                     <div class="container">
                         <div class="article-header">
                             <h4 class="content-title">내화학성 PVC Film</h4>
@@ -130,6 +130,18 @@
                                 유기산 및 알코올 등과<br class="hidden-xs"> 같은 물질에 있어 내성이 매우<br class="visible-xs">
                                 강하여 과산화수소 증기가 쉽게 침투할 수 없습니다.
                             </p>
+                        </div>
+                        <div class="article-content hidden-xs">
+                            <figure>
+                                <img src="/assets/images/technology/chemistry_img.png" class="img-responsive" alt="">
+                                <figcaption class="sr-only">
+                                    <ol>
+                                        <li>01. 필름부착</li>
+                                        <li>02. 실리콘 도포</li>
+                                        <li>03. 시공완료</li>
+                                    </ol>
+                                </figcaption>
+                            </figure>
                         </div>
                     </div>
                 </article>
