@@ -106,6 +106,7 @@ button {
   margin: 0;
   padding: 0;
   border-bottom: 1px solid #e2e2e2;
+  background-size: 100% 100%;
   background-image: url(/assets/images/sub/sub_visual_bg.jpg);
   background-repeat: no-repeat;
   background-position: 50% 50%; }

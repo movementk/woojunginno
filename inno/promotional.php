@@ -151,7 +151,55 @@
                         <hr>
                     </div>
                     <div class="article-content">
-                        Content 내용 없음 대기.
+                        <div class="engineer-list">
+                            <ul>
+                                <li>
+                                    <figure>
+                                        <img src="/assets/images/inno/none_img.gif" class="img-responsive" alt="">
+                                        <figcaption>
+                                            <h6>이순신 #1</h6>
+                                            <p>VIVARIUM E&amp;C</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="/assets/images/inno/none_img.gif" class="img-responsive" alt="">
+                                        <figcaption>
+                                            <h6>이순신 #2</h6>
+                                            <p>VIVARIUM E&amp;C</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="/assets/images/inno/none_img.gif" class="img-responsive" alt="">
+                                        <figcaption>
+                                            <h6>이순신 #3</h6>
+                                            <p>VIVARIUM E&amp;C</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="/assets/images/inno/none_img.gif" class="img-responsive" alt="">
+                                        <figcaption>
+                                            <h6>이순신 #4</h6>
+                                            <p>VIVARIUM E&amp;C</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                                <li>
+                                    <figure>
+                                        <img src="/assets/images/inno/none_img.gif" class="img-responsive" alt="">
+                                        <figcaption>
+                                            <h6>이순신 #5</h6>
+                                            <p>VIVARIUM E&amp;C</p>
+                                        </figcaption>
+                                    </figure>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </article>
@@ -160,5 +208,62 @@
 	<!-- //Sub Content End -->
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/footer.php'); ?>
 	<?php require_once($_SERVER['DOCUMENT_ROOT'].'/inc/docfoot.php'); ?>
+	<script src="/assets/jquery.bxslider/jquery.bxslider.min.js"></script>
+	<script>
+        (function($) {
+            var onedayDefaultOptions = {
+                pager: false,
+                prevText: '이전',
+                nextText: '다음',
+                minSlides: 1,
+                maxSlides: 1,
+                moveSlides: 1,
+                slideMargin: 10,
+                slideWidth: 170
+            };
+            var onedaySlider = $('.engineer-list ul').bxSlider(onedayDefaultOptions);
+            /*
+            $('.engineer-list').bxSlider({
+                pager: false,
+                minSlides: 1,
+                maxSlides: 5,
+                moveSlides: 1,
+                slideMargin: 10
+            });
+            */
+            $(window).on('resize', function() {
+                console.log(onedaySlider);
+                onedaySlider.reloadSlider(onedayDefaultOptions);
+                if ( $(this).width() >= 768 ) {
+                    console.log('768 이상');
+                    onedaySlider.reloadSlider($.extend({
+                        minSlides: 3,
+                        maxSlides: 3,
+                        moveSlides: 1,
+                        slideWidth: 170},
+                    onedayDefaultOptions));
+                }
+                if ( $(this).width() >= 992 ) {
+                    console.log('992 이상');
+                    onedaySlider.reloadSlider($.extend({
+                        minSlides: 4,
+                        maxSlides: 4,
+                        moveSlides: 4,
+                        slideWidth: 170},
+                    onedayDefaultOptions));
+                }
+                if ( $(this).width() >= 1230 ) {
+                    console.log('1230 이상');
+                    onedaySlider.reloadSlider($.extend({
+                        minSlides: 5,
+                        maxSlides: 5,
+                        moveSlides: 1,
+                        slideMargin: 20,
+                        slideWidth: 170},
+                    onedayDefaultOptions));
+                }
+            });
+        })(jQuery);
+    </script>
 </body>
 </html>

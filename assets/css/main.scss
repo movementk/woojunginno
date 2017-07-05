@@ -321,12 +321,6 @@ $lg: "1430px";
 			line-height: 18px;
 			font-weight: 300;
 		}
-		&:hover, &:focus {
-			h4 {
-				color: $kcolor;
-				@include trans();
-			}
-		}
 	}
 	@media (min-width: $sm) {
 		width: 50%;

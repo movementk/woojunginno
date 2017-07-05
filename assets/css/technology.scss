@@ -897,6 +897,22 @@
                     }
                 }
             }
+            &.chemistry {
+                @media(min-width: $sm) {
+                    padding-bottom: 80px;
+                }
+                @media(min-width: $lg) {
+                    padding-bottom: 110px;
+                }
+                .article-header {
+                    .summary {
+                        font-weight: 400;
+                    }
+                }
+                .article-content {
+                    
+                }
+            }
             &.pvc-film {
                 padding-bottom: 50px;
                 background-color: #f7f8f9;
