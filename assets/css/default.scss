@@ -116,6 +116,10 @@ a {
 						color: #333;
 						background-color: #fff;
 					}
+					&.active {
+						color: #333;
+						background-color: #fff;
+					}
 				}
 			}
 		}
@@ -138,8 +142,11 @@ a {
 					border-radius: 12px 12px 12px 12px;
 					text-decoration: none;
 					@include trans();
-					&:hover, &:focus {
+					&.as {
 						background-color: #ef4600;
+					}
+					&:hover, &:focus {
+						opacity: .75;
 					}
 				}
 				& + li {
