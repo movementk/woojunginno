@@ -44,11 +44,14 @@ $lg: "1430px";
 							h3 {
 								margin-bottom: 20px;
 								//font-size: 60px;
-								font-size: 53px;
+								font-size: 26px;
 								//line-height: 50px;
 								@include maven();
 								font-weight: 700;
-								text-shadow: 0 1px 5px rgba(#000, .5);
+								text-shadow: 0 1px 7px rgba(#000, .8);
+                                span {
+                                    font-size: 26px !important;
+                                }
 							}
 							p {
 								//font-size: 20px;
@@ -56,7 +59,7 @@ $lg: "1430px";
 								//line-height: 28px;
 								line-height: 20px;
 								font-weight: 100;
-								text-shadow: 0 1px 2px rgba(#000, .5);
+								text-shadow: 0 1px 3px rgba(#000, .8);
 							}
 						}
 						.intro-outline {
@@ -209,7 +212,10 @@ $lg: "1430px";
 								padding: 80px 60px;
 								h3 {
 									margin-bottom: 20px;
-									font-size: 65px;
+									font-size: 35px;
+                                    span {
+                                        font-size: 35px !important;
+                                    }
 								}
 								p {
 									font-size: 20px;
@@ -244,15 +250,25 @@ $lg: "1430px";
 							height: 430px;
 							.intro-body {
 								padding: 90px 65px;
+                                h3 {
+									margin-bottom: 20px;
+									font-size: 58px;
+                                    span {
+                                        font-size: 58px !important;
+                                    }
+								}
 							}
 						}
 					}
 				}
 			}
 			.bx-controls {
-				top: 410px;
-				left: 50%;
-				margin-left: -620px;
+//				top: 410px;
+//				left: 50%;
+//				margin-left: -620px;
+                top: 126px;
+                left: 50%;
+                margin-left: -88px;
 			}
 		}
 	}
