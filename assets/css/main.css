@@ -61,15 +61,17 @@ address {
       word-wrap: break-word; }
       #introduce .bx-wrapper .bx-viewport .intro-slider .intro-item .intro-content .intro-body h3 {
         margin-bottom: 20px;
-        font-size: 53px;
+        font-size: 26px;
         font-family: 'Maven Pro', sans-serif;
         font-weight: 700;
-        text-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); }
+        text-shadow: 0 1px 7px rgba(0, 0, 0, 0.8); }
+        #introduce .bx-wrapper .bx-viewport .intro-slider .intro-item .intro-content .intro-body h3 span {
+          font-size: 26px !important; }
       #introduce .bx-wrapper .bx-viewport .intro-slider .intro-item .intro-content .intro-body p {
         font-size: 14px;
         line-height: 20px;
         font-weight: 100;
-        text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5); }
+        text-shadow: 0 1px 3px rgba(0, 0, 0, 0.8); }
     #introduce .bx-wrapper .bx-viewport .intro-slider .intro-item .intro-content .intro-outline {
       position: absolute;
       z-index: 0;
@@ -189,7 +191,9 @@ address {
         padding: 80px 60px; }
         #introduce .bx-wrapper .bx-viewport .intro-slider .intro-item .intro-content .intro-body h3 {
           margin-bottom: 20px;
-          font-size: 65px; }
+          font-size: 35px; }
+          #introduce .bx-wrapper .bx-viewport .intro-slider .intro-item .intro-content .intro-body h3 span {
+            font-size: 35px !important; }
         #introduce .bx-wrapper .bx-viewport .intro-slider .intro-item .intro-content .intro-body p {
           font-size: 20px;
           line-height: 28px; }
@@ -211,10 +215,15 @@ address {
       height: 430px; }
       #introduce .bx-wrapper .bx-viewport .intro-slider .intro-item .intro-content .intro-body {
         padding: 90px 65px; }
+        #introduce .bx-wrapper .bx-viewport .intro-slider .intro-item .intro-content .intro-body h3 {
+          margin-bottom: 20px;
+          font-size: 58px; }
+          #introduce .bx-wrapper .bx-viewport .intro-slider .intro-item .intro-content .intro-body h3 span {
+            font-size: 58px !important; }
   #introduce .bx-wrapper .bx-controls {
-    top: 410px;
+    top: 126px;
     left: 50%;
-    margin-left: -620px; } }
+    margin-left: -88px; } }
 
 .inner-container {
   z-index: 60;
