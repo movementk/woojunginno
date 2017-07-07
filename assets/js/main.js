@@ -31,7 +31,7 @@
 		prevText: "<i class='icon-up-micro'></i>",
 		nextText: "<i class='icon-down-micro'></i>",
 	});
-
+    
 	$('#products .product-list ul').bxSlider({
 		pager: false,
 		auto: true,
@@ -39,4 +39,8 @@
 		prevText: "<i class='icon-left-open-big'></i>",
 		nextText: "<i class='icon-right-open-big'></i>",
 	});	
+    
+    $('#pr-video .pr-list').bxSlider({
+		auto: false
+	});
 })(jQuery);
