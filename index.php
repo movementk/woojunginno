@@ -121,9 +121,49 @@
 				</section>
 
 				<section id="pr-video">
+				    <ul class="pr-list">
+				        <li class="list-content01">
+				            <a href="#">
+				                <h4>
+				                    <span class="w-line">10년 된 노후장비</span><br>
+				                    <span class="y-line">그대로 방치하실건가요?</span>
+				                </h4>
+				                <p>
+				                    브랜드 무관!<br>
+				                    주요 부품 교체 Package 출시!
+				                </p>
+				            </a>
+				        </li>
+				        <li class="list-content02">
+				            <a href="#">
+				                <h4>
+				                    <span class="w-line">10년 된 노후장비</span><br>
+				                    <span class="y-line">그대로 방치하실건가요?</span>
+				                </h4>
+				                <p>
+				                    브랜드 무관!<br>
+				                    주요 부품 교체 Package 출시!
+				                </p>
+				            </a>
+				        </li>
+				        <li class="list-content03">
+				            <a href="#">
+				                <h4>
+				                    <span class="w-line">10년 된 노후장비</span><br>
+				                    <span class="y-line">그대로 방치하실건가요?</span>
+				                </h4>
+				                <p>
+				                    브랜드 무관!<br>
+				                    주요 부품 교체 Package 출시!
+				                </p>
+				            </a>
+				        </li>
+				    </ul>
+<!--
 					<a href="#">
 						<img class="btn-play" src="/assets/images/main/ico_play.png" alt="동영상 보기">
 					</a>
+-->
 				</section>
 
 				<section id="as">

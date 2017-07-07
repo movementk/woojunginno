@@ -114,6 +114,7 @@
                 position: relative;
                 margin: 0 auto;
                 .bx-viewport {
+                    z-index: 2;
                     .engineer-list {
                         li {
                             text-align: center;
@@ -157,6 +158,7 @@
                     top: 50%;
                     width: 300px;
                     left: 50%;
+                    z-index: 1;
                     margin-left: -150px;
                     margin-top: -18px;
                     @media(min-width: $sm) {

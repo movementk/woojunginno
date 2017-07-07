@@ -544,49 +544,183 @@ $lg: "1430px";
 	float: left;
 	width: 100%;
 	height: 180px;
-	
-	> a {
-		display: block;
-		padding: 60px 0;
-		width: 100%;
-		height: 100%;
-		background-image: url(/assets/images/main/img_pr_video.jpg);
-		background-repeat: no-repeat;
-		background-size: cover;
-		background-position: 50% 50%;
-		.btn-play {
-			display: block;
-			margin: 0 auto;
-			width: 60px;
-			height: 60px;
-			opacity: .5;
-			@include trans();
-		}
-		&:hover, &:focus {
-			.btn-play {
-				opacity: 1;
-			}
-		}
-	}
+    .bx-wrapper {
+        position: relative;
+        .bx-viewport {
+            .pr-list {
+                li {
+                    a {
+                        display: block;
+                        width: 100%;
+                        height: 180px;
+                        text-align: center;
+                        padding: 20px 0 10px;
+                        background-repeat: no-repeat;
+                        background-position: 50% 50%;
+                        background-size: cover;
+                        @media(min-width: $sm) {
+                            height: 230px;
+                            padding-top: 55px;
+                        }
+                        &:hover, &:focus {
+                            text-decoration: none;
+                        }
+                        h4 {
+                            font-size: 20px;
+                            font-weight: 400;
+                            line-height: 38px;
+                            span {
+                                position: relative;
+                                &.w-line {
+                                    color: #fff;
+                                    &:after {
+                                        position: absolute;
+                                        bottom: -5px;
+                                        left: 0;
+                                        width: 100%;
+                                        content: "";
+                                        border-bottom: 2px solid #fff;
+                                    }
+                                }
+                                &.y-line {
+                                    color: #f3e140;
+                                    &:after {
+                                        position: absolute;
+                                        bottom: -5px;
+                                        left: 0;
+                                        width: 100%;
+                                        content: "";
+                                        border-bottom: 2px solid #f3e140;
+                                    }
+                                }
+                            }
+                            @media(min-width: $sm) {
+                                font-size: 25px;
+                                line-height: 42px;
+                            }
+                        }
+                        > p {
+                            font-size: 13px;
+                            color: #fff;
+                            line-height: 18px;
+                            margin-top: 15px;
+                            @media(min-width: $sm) {
+                                font-size: 15px;
+                                line-height: 20px;
+                                margin-top: 25px;
+                            }
+                        }
+                    }
+                    &.list-content01 {
+                        a {
+                            background-image: url(/assets/images/main/pr_list_bg01.jpg);
+                        }
+                    }
+                    &.list-content02 {
+                        a {
+                            background-image: url(/assets/images/main/pr_list_bg01.jpg);
+                        }
+                    }
+                    &.list-content03 {
+                        a {
+                            background-image: url(/assets/images/main/pr_list_bg01.jpg);
+                        }
+                    }
+                }
+            }
+        }
+        .bx-controls {
+            position: absolute;
+            bottom: 10px;
+            width: 100%;
+            height: 10px;
+            z-index: 1;
+            @media(min-width: $sm) {
+                top: 18px;
+                right: 34px;
+                width: 66px;
+                height: 14px;
+            }
+            @media(min-width: $lg) {
+                top: 20px;
+                right: 20px;
+            }
+            .bx-controls-direction {
+                display: none;
+            }
+            .bx-pager {
+                text-align: center;
+                @media(min-width: $sm) {
+                    text-align: right;
+                }
+                .bx-pager-item {
+                    display: inline-block;
+                    margin: 0 2.5px;
+                    @media(min-width: $sm) {
+                        margin: 0 4px;
+                    }
+                    .bx-pager-link {
+                        text-indent: 99999px;
+                        display: inline-block;
+                        width: 10px;
+                        height: 10px;
+                        display: block;
+                        border-radius: 50%;
+                        background-color: rgba(255, 255, 255, .15);
+                        &.active {
+                            background-color: rgba(255, 255, 255, 1);
+                        }
+                        @media(min-width: $sm) {
+                            width: 14px;
+                            height: 14px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+//	> a {
+//		display: block;
+//		padding: 60px 0;
+//		width: 100%;
+//		height: 100%;
+//		background-image: url(/assets/images/main/img_pr_video.jpg);
+//		background-repeat: no-repeat;
+//		background-size: cover;
+//		background-position: 50% 50%;
+//		.btn-play {
+//			display: block;
+//			margin: 0 auto;
+//			width: 60px;
+//			height: 60px;
+//			opacity: .5;
+//			@include trans();
+//		}
+//		&:hover, &:focus {
+//			.btn-play {
+//				opacity: 1;
+//			}
+//		}
+//	}
 	@media (min-width: $sm) {
 		height: 230px;
-		> a {
-			padding: 85px 0;
-		}
+//		> a {
+//			padding: 85px 0;
+//		}
 	}
 	@media (min-width: $lg) {
 		margin-left: 300px;
 		width: 600px;
-		> a {
-			&:hover, &:focus {
-				z-index: 1;
-				position: relative;
-				-ms-transform: scale(1.05);
-    			-webkit-transform: scale(1.05);
-				transform: scale(1.05);
-				@include trans();
-			}
-		}
+//		> a {
+//			&:hover, &:focus {
+//				z-index: 1;
+//				position: relative;
+//				-ms-transform: scale(1.05);
+//    			-webkit-transform: scale(1.05);
+//				transform: scale(1.05);
+//				@include trans();
+//			}
+//		}
 	}
 }
 

@@ -107,41 +107,44 @@ address {
     .promotional .engineer .article-content .bx-wrapper {
       position: relative;
       margin: 0 auto; }
-      .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li {
-        text-align: center; }
-        .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure {
-          display: inline-block;
-          border: 1px solid #ccc; }
-          @media (min-width: 768px) {
-            .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure {
-              margin: 0 15px; } }
-          .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption {
-            padding: 30px 0;
-            background-color: #fff; }
+      .promotional .engineer .article-content .bx-wrapper .bx-viewport {
+        z-index: 2; }
+        .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li {
+          text-align: center; }
+          .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure {
+            display: inline-block;
+            border: 1px solid #ccc; }
             @media (min-width: 768px) {
-              .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption {
-                padding: 27px 0 30px; } }
-            .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption h6 {
-              font-size: 14px;
-              color: #2b2b2b;
-              font-weight: 400;
-              margin-bottom: 10px; }
+              .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure {
+                margin: 0 15px; } }
+            .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption {
+              padding: 30px 0;
+              background-color: #fff; }
               @media (min-width: 768px) {
-                .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption h6 {
-                  font-size: 16px; } }
-            .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption p {
-              font-size: 12px;
-              color: #999;
-              font-weight: 400;
-              font-family: 'Titillium Web', sans-serif; }
-              @media (min-width: 768px) {
-                .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption p {
-                  font-size: 13px; } }
+                .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption {
+                  padding: 27px 0 30px; } }
+              .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption h6 {
+                font-size: 14px;
+                color: #2b2b2b;
+                font-weight: 400;
+                margin-bottom: 10px; }
+                @media (min-width: 768px) {
+                  .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption h6 {
+                    font-size: 16px; } }
+              .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption p {
+                font-size: 12px;
+                color: #999;
+                font-weight: 400;
+                font-family: 'Titillium Web', sans-serif; }
+                @media (min-width: 768px) {
+                  .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption p {
+                    font-size: 13px; } }
       .promotional .engineer .article-content .bx-wrapper .bx-controls {
         position: absolute;
         top: 50%;
         width: 300px;
         left: 50%;
+        z-index: 1;
         margin-left: -150px;
         margin-top: -18px; }
         @media (min-width: 768px) {
