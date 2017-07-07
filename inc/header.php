@@ -12,8 +12,8 @@
 						<li class="active">
 							<a href="#">이노서비스</a>
 							<ul>
-								<li><a href="#">사업비전<span></span></a></li>
-								<li><a href="/inno/promotional.php">홍보/영상<span></span></a></li>
+								<li><a href="/inno/vision.php">사업비전<span></span></a></li>
+								<li><a href="/inno/promotional.php">홍보센터<span></span></a></li>
 							</ul>
 						</li>
 						<li>

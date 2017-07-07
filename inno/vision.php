@@ -34,7 +34,7 @@
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li class="active"><a href="/inno/vision.php">사업비전</a></li>
-                    <li><a href="/inno/promotional.php">홍보/영상</a></li>
+                    <li><a href="/inno/promotional.php">홍보센터</a></li>
                 </ul>
             </div>
 	    </div>
