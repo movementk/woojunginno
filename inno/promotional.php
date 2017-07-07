@@ -15,11 +15,11 @@
                 <h2 class="hidden-xs">INNO SERVICE</h2>
                 <p>이노서비스</p>
                 <div class="btn-link-area">
-                    <a href="#" class="btn-link pre-btn" role="button">
+                    <a href="/inno/vision.php" class="btn-link pre-btn" role="button">
                         <img src="/assets/images/sub/left_link_btn.png" alt="이전 페이지">
                         <span class="sr-only">이전 페이지</span>
                     </a>
-                    <a href="#" class="btn-link next-btn" role="button">
+                    <a href="/inno/vision.php" class="btn-link next-btn" role="button">
                         <img src="/assets/images/sub/right_link_btn.png" alt="다음 페이지">
                         <span class="sr-only">다음 페이지</span>
                     </a>
@@ -52,14 +52,9 @@
                 <div class="container">
                     <ul class="row">
                         <li class="col-xs-12 col-sm-6 col-lg-3">
-                            <a href="#" data-toggle="modal" data-target="#modal-video">
+                            <a href="#" data-toggle="modal" data-target="#promotion-popup01">
                                 <div class="figure">
                                     <img src="/assets/images/inno/promotional_list_img01.jpg" class="img-responsive" alt="">
-                                    <div class="hover-box">
-                                        <i class="play-icon" role="button">
-                                            <span class="sr-only">동영상 플레이</span>
-                                        </i>
-                                    </div>
                                 </div>
                                 <div class="figcaption">
                                     <h4>이노서비스 홍보영상 제목01</h4>
@@ -68,14 +63,9 @@
                             </a>
                         </li>
                         <li class="col-xs-12 col-sm-6 col-lg-3">
-                            <a href="#" data-toggle="modal" data-target="#modal-video">
+                            <a href="#" data-toggle="modal" data-target="#promotion-popup02">
                                 <div class="figure">
                                     <img src="/assets/images/inno/promotional_list_img02.jpg" class="img-responsive" alt="">
-                                    <div class="hover-box">
-                                        <i class="play-icon" role="button">
-                                            <span class="sr-only">동영상 플레이</span>
-                                        </i>
-                                    </div>
                                 </div>
                                 <div class="figcaption">
                                     <h4>이노서비스 홍보영상 제목02</h4>
@@ -84,14 +74,9 @@
                             </a>
                         </li>
                         <li class="col-xs-12 col-sm-6 col-lg-3">
-                            <a href="#" data-toggle="modal" data-target="#modal-video">
+                            <a href="#" data-toggle="modal" data-target="#promotion-popup03">
                                 <div class="figure">
                                     <img src="/assets/images/inno/promotional_list_img03.jpg" class="img-responsive" alt="">
-                                    <div class="hover-box">
-                                        <i class="play-icon" role="button">
-                                            <span class="sr-only">동영상 플레이</span>
-                                        </i>
-                                    </div>
                                 </div>
                                 <div class="figcaption">
                                     <h4>이노서비스 홍보영상 제목03</h4>
@@ -100,14 +85,9 @@
                             </a>
                         </li>
                         <li class="col-xs-12 col-sm-6 col-lg-3">
-                            <a href="#" data-toggle="modal" data-target="#modal-video">
+                            <a href="#" data-toggle="modal" data-target="#promotion-popup04">
                                 <div class="figure">
                                     <img src="/assets/images/inno/promotional_list_img04.jpg" class="img-responsive" alt="">
-                                    <div class="hover-box">
-                                        <i class="play-icon" role="button">
-                                            <span class="sr-only">동영상 플레이</span>
-                                        </i>
-                                    </div>
                                 </div>
                                 <div class="figcaption">
                                     <h4>이노서비스 홍보영상 제목04</h4>
@@ -118,14 +98,14 @@
                     </ul>
                     <div class="btn-area">
                         <p>
-                            <a href="#" class="btn btn-gray" role="button">홍보영상 더 보기</a>
+                            <a href="#" class="btn btn-gray" role="button">뉴스레터 더 보기</a>
                         </p>
                     </div>
                 </div>
             </div>
             
             <!-- Modal **modal-video** -->
-            <div class="modal fade" id="modal-video" tabindex="-1" role="dialog">
+            <div class="modal fade" id="promotion-popup01" tabindex="-1" role="dialog">
                 <div class="modal-dialog" role="document">
                     <div class="modal-content">
                         <div class="modal-header">
@@ -134,10 +114,72 @@
                             </button>
                         </div>
                         <div class="modal-body">
-                            <div class="embed-responsive embed-responsive-16by9">
-                              <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IojGQErD5dQ" allowfullscreen></iframe>
-                              <!-- 영상 autoplay ?autoplay=1 추가 -->
-                            </div>
+                            <figure>
+                                <img src="/assets/images/inno/promotion_modal_img01.jpg" class="img-responsive" alt="이노서비스 홍보 이미지">
+                                <figcaption class="sr-only">
+                                    칼라스전단지
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="promotion-popup02" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                               <span class="sr-only">닫기</span> 
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <figure>
+                                <img src="/assets/images/inno/promotion_modal_img02.jpg" class="img-responsive" alt="이노서비스 홍보 이미지">
+                                <figcaption class="sr-only">
+                                    노후장비 뉴스레터
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="promotion-popup03" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                               <span class="sr-only">닫기</span> 
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <figure>
+                                <img src="/assets/images/inno/promotion_modal_img03.jpg" class="img-responsive" alt="이노서비스 홍보 이미지">
+                                <figcaption class="sr-only">
+                                    안내메일
+                                </figcaption>
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="modal fade" id="promotion-popup04" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                               <span class="sr-only">닫기</span> 
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <figure>
+                                <img src="/assets/images/inno/promotion_modal_img04.jpg" class="img-responsive" alt="이노서비스 홍보 이미지">
+                                <figcaption class="sr-only">
+                                    all in one copy
+                                </figcaption>
+                            </figure>
                         </div>
                     </div>
                 </div>
@@ -151,55 +193,81 @@
                         <hr>
                     </div>
                     <div class="article-content">
-                        <div class="engineer-list">
-                            <ul>
-                                <li>
-                                    <figure>
-                                        <img src="/assets/images/inno/none_img.gif" class="img-responsive" alt="">
-                                        <figcaption>
-                                            <h6>이순신 #1</h6>
-                                            <p>VIVARIUM E&amp;C</p>
-                                        </figcaption>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure>
-                                        <img src="/assets/images/inno/none_img.gif" class="img-responsive" alt="">
-                                        <figcaption>
-                                            <h6>이순신 #2</h6>
-                                            <p>VIVARIUM E&amp;C</p>
-                                        </figcaption>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure>
-                                        <img src="/assets/images/inno/none_img.gif" class="img-responsive" alt="">
-                                        <figcaption>
-                                            <h6>이순신 #3</h6>
-                                            <p>VIVARIUM E&amp;C</p>
-                                        </figcaption>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure>
-                                        <img src="/assets/images/inno/none_img.gif" class="img-responsive" alt="">
-                                        <figcaption>
-                                            <h6>이순신 #4</h6>
-                                            <p>VIVARIUM E&amp;C</p>
-                                        </figcaption>
-                                    </figure>
-                                </li>
-                                <li>
-                                    <figure>
-                                        <img src="/assets/images/inno/none_img.gif" class="img-responsive" alt="">
-                                        <figcaption>
-                                            <h6>이순신 #5</h6>
-                                            <p>VIVARIUM E&amp;C</p>
-                                        </figcaption>
-                                    </figure>
-                                </li>
-                            </ul>
-                        </div>
+                        <ul class="engineer-list">
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img01.jpg" class="img-responsive" alt="">
+                                    <figcaption>
+                                        <h6>홍길동</h6>
+                                        <p>DIO DECONTAMINATION</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img02.jpg" class="img-responsive" alt="">
+                                    <figcaption>
+                                        <h6>김대환</h6>
+                                        <p>VIVARIUM E&amp;C</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img03.jpg" class="img-responsive" alt="">
+                                    <figcaption>
+                                        <h6>김용택</h6>
+                                        <p>VIVARIUM E&amp;C</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img04.jpg" class="img-responsive" alt="">
+                                    <figcaption>
+                                        <h6>문정내</h6>
+                                        <p>AQUATIC SOLUTION</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img05.jpg" class="img-responsive" alt="">
+                                    <figcaption>
+                                        <h6>오승택</h6>
+                                        <p>DIO DECONTAMINATION</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img06.jpg" class="img-responsive" alt="">
+                                    <figcaption>
+                                        <h6>윤종규</h6>
+                                        <p>DIO DECONTAMINATION</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img07.jpg" class="img-responsive" alt="">
+                                    <figcaption>
+                                        <h6>이문용</h6>
+                                        <p>VIVARIUM E&amp;C</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img08.jpg" class="img-responsive" alt="">
+                                    <figcaption>
+                                        <h6>이위승</h6>
+                                        <p>VIVARIUM E&amp;C</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </article>
@@ -211,6 +279,14 @@
 	<script src="/assets/jquery.bxslider/jquery.bxslider.min.js"></script>
 	<script>
         (function($) {
+            $('.engineer-list').bxSlider({
+                pager: false,
+                minSlides: 1,
+                maxSlides: 5,
+                moveSlides: 1,
+                slideMargin: 10
+            });
+            /*
             var onedayDefaultOptions = {
                 pager: false,
                 prevText: '이전',
@@ -222,6 +298,7 @@
                 slideWidth: 170
             };
             var onedaySlider = $('.engineer-list ul').bxSlider(onedayDefaultOptions);
+            */
             /*
             $('.engineer-list').bxSlider({
                 pager: false,
@@ -231,6 +308,7 @@
                 slideMargin: 10
             });
             */
+            /*
             $(window).on('resize', function() {
                 console.log(onedaySlider);
                 onedaySlider.reloadSlider(onedayDefaultOptions);
@@ -263,6 +341,7 @@
                     onedayDefaultOptions));
                 }
             });
+            */
         })(jQuery);
     </script>
 </body>

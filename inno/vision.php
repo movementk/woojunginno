@@ -15,11 +15,11 @@
                 <h2 class="hidden-xs">INNO SERVICE</h2>
                 <p>이노서비스</p>
                 <div class="btn-link-area">
-                    <a href="#" class="btn-link pre-btn" role="button">
+                    <a href="/inno/promotional.php" class="btn-link pre-btn" role="button">
                         <img src="/assets/images/sub/left_link_btn.png" alt="이전 페이지">
                         <span class="sr-only">이전 페이지</span>
                     </a>
-                    <a href="#" class="btn-link next-btn" role="button">
+                    <a href="/inno/promotional.php" class="btn-link next-btn" role="button">
                         <img src="/assets/images/sub/right_link_btn.png" alt="다음 페이지">
                         <span class="sr-only">다음 페이지</span>
                     </a>
@@ -33,8 +33,8 @@
                     </i>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-                    <li><a href="/inno/vision.php">사업비전</a></li>
-                    <li class="active"><a href="/inno/promotional.php">홍보/영상</a></li>
+                    <li class="active"><a href="/inno/vision.php">사업비전</a></li>
+                    <li><a href="/inno/promotional.php">홍보/영상</a></li>
                 </ul>
             </div>
 	    </div>
@@ -43,9 +43,11 @@
             <div class="section-header">
                 <h3 class="page-title">사업비전</h3>
                 <p class="summary">
+                    <span class="quotation-first"><img src="/assets/images/inno/quotation_first.gif" alt="따옴표"></span>
                     우정비에스씨 이노서비스가<br>
                     진정한 고객가치의 실현을<br class="visible-xs">
                     위해 앞장서고 있습니다
+                    <span class="quotation-last"><img src="/assets/images/inno/quotation_last.gif" alt="따옴표"></span>
                 </p>
             </div>
             <div class="section-content">
