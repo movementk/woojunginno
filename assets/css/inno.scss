@@ -110,39 +110,93 @@
         }
         .article-content {
             text-align: center;
-            .engineer-list {
-                li {
-                    text-align: center;
-                    figure {
-                        display: inline-block;
-                        border: 1px solid #ccc;
-                        .img-responsive {
-                            width: 100%;
-                            max-width: 170px;
-                            height: auto;
-                        }
-                        figcaption {
-                            padding: 30px 0;
-                            background-color: #fff;
-                            @media(min-width: $sm) {
-                                padding: 27px 0 30px;
-                            }
-                            h6 {
-                                font-size: 14px;
-                                color: #2b2b2b;
-                                font-weight: 400;
-                                margin-bottom: 10px;
+            .bx-wrapper {
+                position: relative;
+                margin: 0 auto;
+                .bx-viewport {
+                    .engineer-list {
+                        li {
+                            text-align: center;
+                            figure {
+                                display: inline-block;
+                                border: 1px solid #ccc;
                                 @media(min-width: $sm) {
-                                    font-size: 16px;
+                                    margin: 0 15px;
+                                }
+                                figcaption {
+                                    padding: 30px 0;
+                                    background-color: #fff;
+                                    @media(min-width: $sm) {
+                                        padding: 27px 0 30px;
+                                    }
+                                    h6 {
+                                        font-size: 14px;
+                                        color: #2b2b2b;
+                                        font-weight: 400;
+                                        margin-bottom: 10px;
+                                        @media(min-width: $sm) {
+                                            font-size: 16px;
+                                        }
+                                    }
+                                    p {
+                                        font-size: 12px;
+                                        color: #999;
+                                        font-weight: 400;
+                                        @include titi();
+                                        @media(min-width: $sm) {
+                                            font-size: 13px;
+                                        }
+                                    }
                                 }
                             }
-                            p {
-                                font-size: 12px;
-                                color: #999;
-                                font-weight: 400;
-                                @include titi();
+                        }
+                    }
+                }
+                .bx-controls {
+                    position: absolute;
+                    top: 50%;
+                    width: 300px;
+                    left: 50%;
+                    margin-left: -150px;
+                    margin-top: -18px;
+                    @media(min-width: $sm) {
+                        width: 724px;
+                        margin-left: -362px;
+                        margin-top: -30px;
+                    }
+                    @media(min-width: $md) {
+                        width: 940px;
+                        margin-left: -470px;
+                    }
+                    @media(min-width: $lg) {
+                        width: 1170px;
+                        margin-left: -585px;
+                    }
+                    .bx-controls-direction {
+                        overflow: hidden;
+                        a {
+                            display: inline-block;
+                            width: 20px;
+                            height: 36px;
+                            text-indent: -999999px;
+                            background-repeat: no-repeat;
+                            background-position: 0 0;
+                            @media(min-width: $sm) {
+                                width: 33px;
+                                height: 60px;
+                            }
+                            &.bx-prev {
+                                float: left;
+                                background-image: url(/assets/images/inno/left_xs_btn.png);
                                 @media(min-width: $sm) {
-                                    font-size: 13px;
+                                    background-image: url(/assets/images/inno/left_sm_btn.png);
+                                }
+                            }
+                            &.bx-next {
+                                float: right;
+                                background-image: url(/assets/images/inno/right_xs_btn.png);
+                                @media(min-width: $sm) {
+                                    background-image: url(/assets/images/inno/right_sm_btn.png);
                                 }
                             }
                         }

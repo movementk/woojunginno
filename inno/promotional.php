@@ -27,21 +27,21 @@
 	        </div>
             <div class="lnb dropdown">
                 <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
-                    홍보/영상
+                    홍보센터
                     <i class="more-icon">
                         <span class="sr-only">더보기</span>
                     </i>
                 </button>
                 <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                     <li><a href="/inno/vision.php">사업비전</a></li>
-                    <li class="active"><a href="/inno/promotional.php">홍보/영상</a></li>
+                    <li class="active"><a href="/inno/promotional.php">홍보센터</a></li>
                 </ul>
             </div>
 	    </div>
 	    <!-- //Page Header -->
 	    <section class="promotional">
             <div class="section-header">
-                <h3 class="page-title">홍보/영상</h3>
+                <h3 class="page-title">홍보센터</h3>
                 <p class="summary">
                     (주)우정비에스씨 이노서비스는 장비 판매에서<br>
                     더 나아가 A/S까지도 책임지는 서비스를<br class="visible-xs">
@@ -57,7 +57,7 @@
                                     <img src="/assets/images/inno/promotional_list_img01.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="figcaption">
-                                    <h4>이노서비스 홍보영상 제목01</h4>
+                                    <h4>우정 InnoService 상품</h4>
                                     <p class="date">2017.05.01</p>
                                 </div>
                             </a>
@@ -68,7 +68,7 @@
                                     <img src="/assets/images/inno/promotional_list_img02.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="figcaption">
-                                    <h4>이노서비스 홍보영상 제목02</h4>
+                                    <h4>10년 된 노후장비 그대로 방치하실건가요?</h4>
                                     <p class="date">2017.05.01</p>
                                 </div>
                             </a>
@@ -79,7 +79,7 @@
                                     <img src="/assets/images/inno/promotional_list_img03.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="figcaption">
-                                    <h4>이노서비스 홍보영상 제목03</h4>
+                                    <h4>우정 콜센터 오픈</h4>
                                     <p class="date">2017.05.01</p>
                                 </div>
                             </a>
@@ -90,7 +90,7 @@
                                     <img src="/assets/images/inno/promotional_list_img04.jpg" class="img-responsive" alt="">
                                 </div>
                                 <div class="figcaption">
-                                    <h4>이노서비스 홍보영상 제목04</h4>
+                                    <h4>우정비에스씨 ALL in ONE SERVICE</h4>
                                     <p class="date">2017.05.01</p>
                                 </div>
                             </a>
@@ -196,74 +196,148 @@
                         <ul class="engineer-list">
                             <li>
                                 <figure>
-                                    <img src="/assets/images/inno/engineer_img01.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/images/inno/engineer_img01.jpg" class="img-responsive" alt="동물실 파트 윤종규">
                                     <figcaption>
-                                        <h6>홍길동</h6>
-                                        <p>DIO DECONTAMINATION</p>
+                                        <h6>윤종규</h6>
+                                        <p>동물실 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img02.jpg" class="img-responsive" alt="기술팀 김대환">
+                                    <figcaption>
+                                        <h6>김대환</h6>
+                                        <p>기술팀</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img03.jpg" class="img-responsive" alt="동물실 파트 김용택">
+                                    <figcaption>
+                                        <h6>김용택</h6>
+                                        <p>동물실 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img04.jpg" class="img-responsive" alt="감염방지 파트 문정내">
+                                    <figcaption>
+                                        <h6>문정내</h6>
+                                        <p>감염방지 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img05.jpg" class="img-responsive" alt="고객서비스 파트 오승택">
+                                    <figcaption>
+                                        <h6>오승택</h6>
+                                        <p>고객서비스 파트</p>
                                     </figcaption>
                                 </figure>
                             </li>
                             
                             <li>
                                 <figure>
-                                    <img src="/assets/images/inno/engineer_img02.jpg" class="img-responsive" alt="">
-                                    <figcaption>
-                                        <h6>김대환</h6>
-                                        <p>VIVARIUM E&amp;C</p>
-                                    </figcaption>
-                                </figure>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="/assets/images/inno/engineer_img03.jpg" class="img-responsive" alt="">
-                                    <figcaption>
-                                        <h6>김용택</h6>
-                                        <p>VIVARIUM E&amp;C</p>
-                                    </figcaption>
-                                </figure>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="/assets/images/inno/engineer_img04.jpg" class="img-responsive" alt="">
-                                    <figcaption>
-                                        <h6>문정내</h6>
-                                        <p>AQUATIC SOLUTION</p>
-                                    </figcaption>
-                                </figure>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="/assets/images/inno/engineer_img05.jpg" class="img-responsive" alt="">
-                                    <figcaption>
-                                        <h6>오승택</h6>
-                                        <p>DIO DECONTAMINATION</p>
-                                    </figcaption>
-                                </figure>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="/assets/images/inno/engineer_img06.jpg" class="img-responsive" alt="">
-                                    <figcaption>
-                                        <h6>윤종규</h6>
-                                        <p>DIO DECONTAMINATION</p>
-                                    </figcaption>
-                                </figure>
-                            </li>
-                            <li>
-                                <figure>
-                                    <img src="/assets/images/inno/engineer_img07.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/images/inno/engineer_img06.jpg" class="img-responsive" alt="감염방지 파트 이문용">
                                     <figcaption>
                                         <h6>이문용</h6>
-                                        <p>VIVARIUM E&amp;C</p>
+                                        <p>감염방지 파트</p>
                                     </figcaption>
                                 </figure>
                             </li>
                             <li>
                                 <figure>
-                                    <img src="/assets/images/inno/engineer_img08.jpg" class="img-responsive" alt="">
+                                    <img src="/assets/images/inno/engineer_img07.jpg" class="img-responsive" alt="제약사 파트 이위승">
                                     <figcaption>
                                         <h6>이위승</h6>
-                                        <p>VIVARIUM E&amp;C</p>
+                                        <p>제약사 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img08.jpg" class="img-responsive" alt="감염방지 파트 이재원">
+                                    <figcaption>
+                                        <h6>이재원</h6>
+                                        <p>감염방지 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_img09.jpg" class="img-responsive" alt="감염방지 파트 장민석">
+                                    <figcaption>
+                                        <h6>장민석</h6>
+                                        <p>감염방지 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_none_img.jpg" class="img-responsive" alt="동물실 파트 김정훈">
+                                    <figcaption>
+                                        <h6>김정훈</h6>
+                                        <p>동물실 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_none_img.jpg" class="img-responsive" alt="동물실 파트 김재영">
+                                    <figcaption>
+                                        <h6>김재영</h6>
+                                        <p>동물실 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_none_img.jpg" class="img-responsive" alt="동물실 파트 박관혁">
+                                    <figcaption>
+                                        <h6>박관혁</h6>
+                                        <p>동물실 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_none_img.jpg" class="img-responsive" alt="고객서비스 파트 이창훈">
+                                    <figcaption>
+                                        <h6>이창훈</h6>
+                                        <p>고객서비스 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_none_img.jpg" class="img-responsive" alt="고객서비스 파트 임유진">
+                                    <figcaption>
+                                        <h6>임유진</h6>
+                                        <p>고객서비스 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_none_img.jpg" class="img-responsive" alt="제약사 파트 송치완">
+                                    <figcaption>
+                                        <h6>송치완</h6>
+                                        <p>제약사 파트</p>
+                                    </figcaption>
+                                </figure>
+                            </li>
+                            
+                            <li>
+                                <figure>
+                                    <img src="/assets/images/inno/engineer_none_img.jpg" class="img-responsive" alt="제약사 파트 박상혼">
+                                    <figcaption>
+                                        <h6>박상혼</h6>
+                                        <p>제약사 파트</p>
                                     </figcaption>
                                 </figure>
                             </li>
@@ -279,69 +353,51 @@
 	<script src="/assets/jquery.bxslider/jquery.bxslider.min.js"></script>
 	<script>
         (function($) {
-            $('.engineer-list').bxSlider({
+            var engSliderOpt = {
                 pager: false,
-                minSlides: 1,
-                maxSlides: 5,
-                moveSlides: 1,
-                slideMargin: 10
-            });
-            /*
-            var onedayDefaultOptions = {
-                pager: false,
-                prevText: '이전',
-                nextText: '다음',
+                slideWidth: 170,
                 minSlides: 1,
                 maxSlides: 1,
                 moveSlides: 1,
-                slideMargin: 10,
-                slideWidth: 170
-            };
-            var onedaySlider = $('.engineer-list ul').bxSlider(onedayDefaultOptions);
-            */
-            /*
-            $('.engineer-list').bxSlider({
-                pager: false,
-                minSlides: 1,
-                maxSlides: 5,
-                moveSlides: 1,
                 slideMargin: 10
-            });
-            */
-            /*
-            $(window).on('resize', function() {
-                console.log(onedaySlider);
-                onedaySlider.reloadSlider(onedayDefaultOptions);
-                if ( $(this).width() >= 768 ) {
-                    console.log('768 이상');
-                    onedaySlider.reloadSlider($.extend({
+            };
+            var engSlider = $('.engineer-list').bxSlider(engSliderOpt);
+            
+            $(window).on('load resize', function() {
+                var conWidth = $('.container:eq(0)').outerWidth();
+//                console.log(conWidth);
+                engSlider.reloadSlider(engSliderOpt);
+                if ( conWidth >= 750 ) {
+                    engSlider.reloadSlider({
+                        pager: false,
+                        slideWidth: 200,
                         minSlides: 3,
                         maxSlides: 3,
                         moveSlides: 1,
-                        slideWidth: 170},
-                    onedayDefaultOptions));
+                        slideMargin: 10
+                    });
                 }
-                if ( $(this).width() >= 992 ) {
-                    console.log('992 이상');
-                    onedaySlider.reloadSlider($.extend({
+                if ( conWidth >= 970 ) {
+                    engSlider.reloadSlider({
+                        pager: false,
+                        slideWidth: 200,
                         minSlides: 4,
                         maxSlides: 4,
-                        moveSlides: 4,
-                        slideWidth: 170},
-                    onedayDefaultOptions));
+                        moveSlides: 1,
+                        slideMargin: 10
+                    });
                 }
-                if ( $(this).width() >= 1230 ) {
-                    console.log('1230 이상');
-                    onedaySlider.reloadSlider($.extend({
+                if ( conWidth >= 1200 ) {
+                    engSlider.reloadSlider({
+                        pager: false,
+                        slideWidth: 200,
                         minSlides: 5,
                         maxSlides: 5,
                         moveSlides: 1,
-                        slideMargin: 20,
-                        slideWidth: 170},
-                    onedayDefaultOptions));
+                        slideMargin: 10
+                    });
                 }
             });
-            */
         })(jQuery);
     </script>
 </body>

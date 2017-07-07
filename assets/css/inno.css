@@ -104,37 +104,84 @@ address {
       padding-bottom: 110px; } }
   .promotional .engineer .article-content {
     text-align: center; }
-    .promotional .engineer .article-content .engineer-list li {
-      text-align: center; }
-      .promotional .engineer .article-content .engineer-list li figure {
-        display: inline-block;
-        border: 1px solid #ccc; }
-        .promotional .engineer .article-content .engineer-list li figure .img-responsive {
-          width: 100%;
-          max-width: 170px;
-          height: auto; }
-        .promotional .engineer .article-content .engineer-list li figure figcaption {
-          padding: 30px 0;
-          background-color: #fff; }
+    .promotional .engineer .article-content .bx-wrapper {
+      position: relative;
+      margin: 0 auto; }
+      .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li {
+        text-align: center; }
+        .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure {
+          display: inline-block;
+          border: 1px solid #ccc; }
           @media (min-width: 768px) {
-            .promotional .engineer .article-content .engineer-list li figure figcaption {
-              padding: 27px 0 30px; } }
-          .promotional .engineer .article-content .engineer-list li figure figcaption h6 {
-            font-size: 14px;
-            color: #2b2b2b;
-            font-weight: 400;
-            margin-bottom: 10px; }
+            .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure {
+              margin: 0 15px; } }
+          .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption {
+            padding: 30px 0;
+            background-color: #fff; }
             @media (min-width: 768px) {
-              .promotional .engineer .article-content .engineer-list li figure figcaption h6 {
-                font-size: 16px; } }
-          .promotional .engineer .article-content .engineer-list li figure figcaption p {
-            font-size: 12px;
-            color: #999;
-            font-weight: 400;
-            font-family: 'Titillium Web', sans-serif; }
+              .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption {
+                padding: 27px 0 30px; } }
+            .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption h6 {
+              font-size: 14px;
+              color: #2b2b2b;
+              font-weight: 400;
+              margin-bottom: 10px; }
+              @media (min-width: 768px) {
+                .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption h6 {
+                  font-size: 16px; } }
+            .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption p {
+              font-size: 12px;
+              color: #999;
+              font-weight: 400;
+              font-family: 'Titillium Web', sans-serif; }
+              @media (min-width: 768px) {
+                .promotional .engineer .article-content .bx-wrapper .bx-viewport .engineer-list li figure figcaption p {
+                  font-size: 13px; } }
+      .promotional .engineer .article-content .bx-wrapper .bx-controls {
+        position: absolute;
+        top: 50%;
+        width: 300px;
+        left: 50%;
+        margin-left: -150px;
+        margin-top: -18px; }
+        @media (min-width: 768px) {
+          .promotional .engineer .article-content .bx-wrapper .bx-controls {
+            width: 724px;
+            margin-left: -362px;
+            margin-top: -30px; } }
+        @media (min-width: 992px) {
+          .promotional .engineer .article-content .bx-wrapper .bx-controls {
+            width: 940px;
+            margin-left: -470px; } }
+        @media (min-width: 1280px) {
+          .promotional .engineer .article-content .bx-wrapper .bx-controls {
+            width: 1170px;
+            margin-left: -585px; } }
+        .promotional .engineer .article-content .bx-wrapper .bx-controls .bx-controls-direction {
+          overflow: hidden; }
+          .promotional .engineer .article-content .bx-wrapper .bx-controls .bx-controls-direction a {
+            display: inline-block;
+            width: 20px;
+            height: 36px;
+            text-indent: -999999px;
+            background-repeat: no-repeat;
+            background-position: 0 0; }
             @media (min-width: 768px) {
-              .promotional .engineer .article-content .engineer-list li figure figcaption p {
-                font-size: 13px; } }
+              .promotional .engineer .article-content .bx-wrapper .bx-controls .bx-controls-direction a {
+                width: 33px;
+                height: 60px; } }
+            .promotional .engineer .article-content .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
+              float: left;
+              background-image: url(/assets/images/inno/left_xs_btn.png); }
+              @media (min-width: 768px) {
+                .promotional .engineer .article-content .bx-wrapper .bx-controls .bx-controls-direction a.bx-prev {
+                  background-image: url(/assets/images/inno/left_sm_btn.png); } }
+            .promotional .engineer .article-content .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
+              float: right;
+              background-image: url(/assets/images/inno/right_xs_btn.png); }
+              @media (min-width: 768px) {
+                .promotional .engineer .article-content .bx-wrapper .bx-controls .bx-controls-direction a.bx-next {
+                  background-image: url(/assets/images/inno/right_sm_btn.png); } }
 
 .modal {
   padding-top: 25%;
