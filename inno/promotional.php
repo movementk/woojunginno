@@ -384,7 +384,7 @@
                         minSlides: 4,
                         maxSlides: 4,
                         moveSlides: 1,
-                        slideMargin: 10
+                        slideMargin: 0
                     });
                 }
                 if ( conWidth >= 1200 ) {
@@ -394,7 +394,7 @@
                         minSlides: 5,
                         maxSlides: 5,
                         moveSlides: 1,
-                        slideMargin: 10
+                        slideMargin: 0
                     });
                 }
             });
